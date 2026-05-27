@@ -11,8 +11,8 @@
 \contentsline {subsection}{\numberline {1.5}Alcances y Limitaciones}{3}{subsection.1.5}%
 \contentsline {subsubsection}{\numberline {1.5.1}Alcances}{3}{subsubsection.1.5.1}%
 \contentsline {subsubsection}{\numberline {1.5.2}Limitaciones}{3}{subsubsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.6}Ejemplos de Tablas e Inclusión de Imágenes}{3}{subsection.1.6}%
-\contentsline {subsubsection}{\numberline {1.6.1}Inclusión de Tablas}{3}{subsubsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6}Ejemplos de Tablas e Inclusión de Imágenes}{4}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.6.1}Inclusión de Tablas}{4}{subsubsection.1.6.1}%
 \contentsline {subsubsection}{\numberline {1.6.2}Inclusión de Imágenes}{4}{subsubsection.1.6.2}%
 \contentsline {section}{\numberline {2}Metodología}{6}{section.2}%
 \contentsline {section}{\numberline {3}Resultados}{9}{section.3}%
