@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1779926936.81811 "build/main.bcf" "build/main.bbl" "build/main" 1779927557.23041 0
-  "Referencias.bib" 1779926935 3697 41c11ceec8649109896d18f1fa5554e2 ""
-  "build/main.bcf" 1779927556 108421 3a1344b1160decb1fd8ca3239ada97c6 "pdflatex"
+["biber build/main"] 1780009150.8792 "build/main.bcf" "build/main.bbl" "build/main" 1780009169.47431 0
+  "Referencias.bib" 1780009039 4417 ad92e35bc9779b7e9c9ed8eaa066f817 ""
+  "build/main.bcf" 1780009168 108859 8ae98bd1937879bcbc27d8a2f7c2392a "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1779927551.98422 "d:/fifi0/Documents/estadia/tesina-tsu-mayago-2026-vale2430215/main.tex" "build/main.pdf" "main" 1779927557.23224 0
+["pdflatex"] 1780009162.34555 "d:/fifi0/Documents/estadia/tesina-tsu-mayago-2026-vale2430215/main.tex" "build/main.pdf" "main" 1780009169.47626 0
   "C:/Users/fifi0/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779229179 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/fifi0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1779228003 31952 a8df7a04e890f762ef2f2556ee459b48 ""
   "C:/Users/fifi0/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1779228000 40136 3ec95e9e7c20647a6a8f4e2becd14742 ""
@@ -260,15 +260,15 @@
   "D:/fifi0/Documents/MikTex/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "LogoUPV_2023.png" 1779216558 135292 80af2bf2f94e61e542c06ed161ce1345 ""
   "Membrete2023.pdf" 1779216558 259207 95421e691ffb3724a5bf35893a152f98 ""
-  "Referencias.bib" 1779926935 3697 41c11ceec8649109896d18f1fa5554e2 ""
+  "Referencias.bib" 1780009039 4417 ad92e35bc9779b7e9c9ed8eaa066f817 ""
   "UTYP.png" 1779216558 37831 6341e5aeae893dd331cd87983b1be4b3 ""
-  "build/main.aux" 1779927556 8356 bcaaa6fed31b4217dcb0a04f320b8b9a "pdflatex"
-  "build/main.bbl" 1779926940 13023 254ed2d9c20676f4117dd46146a22961 "biber build/main"
-  "build/main.out" 1779927556 3725 45fcdaa34092e20a253f3e1006ec5d02 "pdflatex"
-  "build/main.run.xml" 1779927556 2306 628e0087c61ee8036d936d14edcd02fc "pdflatex"
-  "build/main.toc" 1779927556 2129 d73ea4c76c36ffd8796e08d8c9760595 "pdflatex"
+  "build/main.aux" 1780009168 9267 86374c52b46106600df2656e4b38eb51 "pdflatex"
+  "build/main.bbl" 1780009154 15434 b2ea1f16fe2e32dbe1c34cf38c2e6a6c "biber build/main"
+  "build/main.out" 1780009168 3875 90534797d06cc864ea70f33ba797730b "pdflatex"
+  "build/main.run.xml" 1780009168 2306 628e0087c61ee8036d936d14edcd02fc "pdflatex"
+  "build/main.toc" 1780009168 2204 47d1bb10cb7be879f85c10a350c9c4e8 "pdflatex"
   "conclusiones.tex" 1779216558 167 58c97b577cc4a7b765a6392283e7fd37 ""
-  "d:/fifi0/Documents/estadia/tesina-tsu-mayago-2026-vale2430215/main.tex" 1779824057 22237 3c85d75d50a6cc7de60fc0dc73f343fe ""
+  "d:/fifi0/Documents/estadia/tesina-tsu-mayago-2026-vale2430215/main.tex" 1779991224 22402 8ed74bc666ee6cabaa0ec96316c51061 ""
   "documentosDigitalizados/CartaAceptacion.pdf" 1778557557 318754 7972f5890b3b8534383d52772923f557 ""
   "documentosDigitalizados/CartaLiberacion.pdf" 1779216558 37353 fe0e5803f869f1c1e00df142f69ca031 ""
   "documentosDigitalizados/CartaPresentacion.pdf" 1778557566 326896 5fa0f149e888a3d82ab747d7b31a8afd ""
@@ -277,8 +277,8 @@
   "img/diagrama_proceso.png" 1779216558 112008 806a5772e1890d210f35ca869eb7261e ""
   "img/grafico_datos1.jpg" 1779216558 61975 7786eb1e265c2a3194714d28734deb0e ""
   "img/grafico_datos2.jpg" 1779216558 38058 b7609460ad2209fe27a57c178b1daf89 ""
-  "introduccion.tex" 1779927545 13271 94081cd695b676ce4f83472a998f160c ""
-  "main.tex" 1779824057 22237 3c85d75d50a6cc7de60fc0dc73f343fe ""
+  "introduccion.tex" 1780009144 15129 6949d30cca8fab2e7cfad0723c9153dc ""
+  "main.tex" 1779991224 22402 8ed74bc666ee6cabaa0ec96316c51061 ""
   "metodologia.tex" 1779216558 4147 5c32bf02e6a8e1f03c41edcfecebc1da ""
   "resultados.tex" 1779216558 1095 db5af9c18ffdb5d2bd76b6af6b9ea184 ""
   (generated)

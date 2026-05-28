@@ -14,24 +14,24 @@ En este proyecto se busca implementar un sistema siguiendo las bases del que est
 \subsubsection{Antecedentes de la empresa}
 \label{sec:antecedentes_empresa}
 
-El Poder Judicial del Estado de Tamaulipas es una institución pública encargada de impartir y administrar justicia en el estado de Tamaulipas. Su objetivo principal es resolver conflictos entre particulares y autoridades, garantizando el Estado de derecho, la protección de los derechos humanos y la paz social.
+\paragraph{Información general del PJETAM} ~\\
+\label{sec:informacion}El Poder Judicial del Estado de Tamaulipas es una institución pública encargada de impartir y administrar justicia en el estado de Tamaulipas. Su objetivo principal es resolver conflictos entre particulares y autoridades, garantizando el Estado de derecho, la protección de los derechos humanos y la paz social.\cite{PJETAM:ReglamentoTribunalElectronico2022}
 
-Entre las principales funciones institucionales que este realiza se encuentran resolver conflictos entre los ciudadanos, entre empresas, o entre los particulares y el Estado, basándose en la legislación vigente. De igual forma, asegurar que ninguna ley, norma o acto de autoridad vulnere lo establecido en la Constitución y servir de salvaguarda ante violaciones a los derechos humanos y libertades individuales. Además de actuar como un contrapeso democrático para limitar el poder del Ejecutivo y del Legislativo, asegurando que sus actos se mantengan dentro del marco.
+Entre las principales funciones institucionales que este realiza se encuentran resolver conflictos entre los ciudadanos, entre empresas, o entre los particulares y el Estado, basándose en la legislación vigente. De igual forma, asegurar que ninguna ley, norma o acto de autoridad vulnere lo establecido en la Constitución y servir de salvaguarda ante violaciones a los derechos humanos y libertades individuales. Además de actuar como un contrapeso democrático para limitar el poder del Ejecutivo y del Legislativo, asegurando que sus actos se mantengan dentro del marco.\cite{PJETAM:ReglamentoTribunalElectronico2022}
 
-\subsubsection{Misión}
-\label{sec:mision}
+\paragraph{Misión} ~\\
+\label{sec:mision}Impartir y administrar justicia de manera eficiente y expedita, solucionando conflictos a través de los órganos jurisdiccionales y los medios alternos, contribuyendo a garantizar el estado de derecho y la paz social en Tamaulipas.\cite{PJETAM:MisionVision}
 
-Impartir y administrar justicia de manera eficiente y expedita, solucionando conflictos a través de los órganos jurisdiccionales y los medios alternos, contribuyendo a garantizar el estado de derecho y la paz social en Tamaulipas.
+\paragraph{Visión} ~\\
+\label{sec:vision}Transcender como Institución de excelencia, mediante la profesionalización e institucionalización de sus integrantes, en un ambiente de humanismo y justicia institucional, haciendo uso de la innovación tecnológica y optimización de los recursos, con responsabilidad social y pleno respeto a la ley, los derechos humanos y la igualdad de género.\cite{PJETAM:MisionVision}
 
-\subsubsection{Visión}
-\label{sec:vision}
-Transcender como Institución de excelencia, mediante la profesionalización e institucionalización de sus integrantes, en un ambiente de humanismo y justicia institucional, haciendo uso de la innovación tecnológica y optimización de los recursos, con responsabilidad social y pleno respeto a la ley, los derechos humanos y la igualdad de género.
+\paragraph{Tribunal Electrónico para el manejo de datos del personal} ~\\
+\label{sec:sistemas_informacion}El Poder Judicial del Estado de Tamaulipas mantiene una necesidad constante de modernizar y ampliar sus sistemas informáticos para agilizar trámites y garantizar la transparencia; esto se refiere a que es primordial tener infraestructura, software especializado y herramientas de ciberseguridad de alta calidad para el desarrollo de sus sistema informáticos. Para hacer frente a estas necesidades, la institución se apoya en el Tribunal Electrónico, un ecosistema digital que requiere soporte y desarrollo tecnológico continuo.\cite{PJETAM:ReglamentoTribunalElectronico2022}
 
-\subsubsection{Sistemas de Información en el PJETAM para el manejo de datos del personal}
-\label{sec:sistemas_informacion}
+Dentro del ecosistema del Tribunal Electrónico se encuentra el sistema para la gestión y actualización de datos del personal, el cual fue desarrollado aproximadamente hace 15 años utilizando tecnologías como el framework ASP.NET Web Forms y el lenguaje de programación Visual Basic, bajo una arquitectura en capas, separando  el diseño visual de la lógica del sistema. 
+Aunque dicho sistema permitió durante varios años llevar a cabo procesos administrativos relacionados con la información del personal, con el paso del tiempo comenzaron a presentarse diversas limitaciones derivadas de la antigüedad de las tecnologías empleadas. 
 
-El Poder Judicial del Estado de Tamaulipas (PJETAM) mantiene una necesidad constante de modernizar y ampliar sus sistemas informáticos para agilizar trámites y garantizar la transparencia; esto se refiere a que es primordial tener infraestructura, software especializado y herramientas de ciberseguridad de alta calidad para el desarrollo de sus sistema informáticos. Para hacer frente a estas necesidades, la institución se apoya en el Tribunal Electrónico, un ecosistema digital que requiere soporte y desarrollo tecnológico continuo.
-
+Entre estas limitaciones destacan las dificultades de mantenimiento, la complejidad para implementar nuevas funcionalidades, problemas de compatibilidad con herramientas modernas y restricciones en aspectos relacionados con la seguridad y escalabilidad. Esta situación evidenció la necesidad de modernizar el sistema mediante una solución web basada en tecnologías actuales que permitieran mejorar la eficiencia operativa, la experiencia de usuario y la integración con otros servicios institucionales.
 \subsubsection{Antecedentes teóricos}
 \label{sec:antecedentes_teoricos}
 
@@ -41,6 +41,8 @@ El Poder Judicial del Estado de Tamaulipas (PJETAM) mantiene una necesidad const
 Actualmente, el Poder Judicial del Estado de Tamaulipas cuenta con un sistema para la gestión y actualización de datos del personal desarrollado hace más de 15 años. Debido al tiempo transcurrido desde su implementación, dicho sistema presenta diversas limitaciones tecnológicas que afectan su funcionamiento, mantenimiento y capacidad de adaptación a las necesidades actuales de la institución.
 
 Entre las principales problemáticas identificadas se encuentran el uso de tecnologías obsoletas como el framework ASP.NET Web Forms, dificultades para realizar mantenimiento o implementar nuevas funcionalidades, limitaciones en la seguridad de la información y una experiencia de usuario poco eficiente. Asimismo, el sistema actual no cuenta con mecanismos modernos de integración con otros servicios institucionales, lo que dificulta la centralización y optimización de procesos relacionados con el personal.
+
+Ante esta situación, surge la necesidad de desarrollar un nuevo sistema web que permita modernizar el proceso de actualización de datos del personal mediante el uso de tecnologías actuales, mecanismos de seguridad más robustos e integración con otros sistemas institucionales. De esta manera, se busca mejorar la eficiencia operativa, facilitar el mantenimiento futuro del sistema y brindar una herramienta más segura, escalable y funcional para sus usuarios.
 \subsection{Objetivos}
 \label{sec:objetivos}
 
