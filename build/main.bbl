@@ -1,0 +1,193 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{PJETAM:ReglamentoTribunalElectronico2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b8b5c6ed3fa07d5af4b296910511291c}{%
+           family={{Poder Judicial del Estado de Tamaulipas}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{fullhash}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{fullhashraw}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{bibnamehash}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{authorbibnamehash}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{authornamehash}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{authorfullhash}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{authorfullhashraw}{b8b5c6ed3fa07d5af4b296910511291c}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.pjetam.gob.mx}}
+      \field{note}{Documento oficial consultado el 28 de mayo de 2026}
+      \field{title}{Reglamento para el Acceso a los Servicios del Tribunal Electrónico del Poder Judicial del Estado de Tamaulipas}
+      \field{year}{2022}
+    \endentry
+    \entry{PJETAM:MisionVision}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b8b5c6ed3fa07d5af4b296910511291c}{%
+           family={{Poder Judicial del Estado de Tamaulipas}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{fullhash}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{fullhashraw}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{bibnamehash}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{authorbibnamehash}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{authornamehash}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{authorfullhash}{b8b5c6ed3fa07d5af4b296910511291c}
+      \strng{authorfullhashraw}{b8b5c6ed3fa07d5af4b296910511291c}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pjetam.gob.mx/historia/mision-y-vision/}}
+      \field{note}{Consultado el 28 de mayo de 2026}
+      \field{title}{Misión y Visión}
+      \field{year}{s.f.}
+    \endentry
+    \entry{mandviwalla2025modernizing}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f9b262c2c9e44ecb9c71002c1d260c5a}{%
+           family={Mandviwalla},
+           familyi={M\bibinitperiod},
+           given={Munir},
+           giveni={M\bibinitperiod}}}%
+        {{hash=83f8a52e2b5db37d02cfb57e20b60064}{%
+           family={Tiwana},
+           familyi={T\bibinitperiod},
+           given={Amrit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=30735f1522502df40e51334946b06556}{%
+           family={Bradshaw},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5cbf20dc70e4f864a458e8ba68ca568c}
+      \strng{fullhash}{5cbf20dc70e4f864a458e8ba68ca568c}
+      \strng{fullhashraw}{5cbf20dc70e4f864a458e8ba68ca568c}
+      \strng{bibnamehash}{5cbf20dc70e4f864a458e8ba68ca568c}
+      \strng{authorbibnamehash}{5cbf20dc70e4f864a458e8ba68ca568c}
+      \strng{authornamehash}{5cbf20dc70e4f864a458e8ba68ca568c}
+      \strng{authorfullhash}{5cbf20dc70e4f864a458e8ba68ca568c}
+      \strng{authorfullhashraw}{5cbf20dc70e4f864a458e8ba68ca568c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Software}
+      \field{title}{Modernizing Core Legacy Systems: A Framework Based on Transplantability and Tailoring}
+      \field{year}{2025}
+    \endentry
+    \entry{herceg2024modernizing}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=fcd8927b4f37072ebcb895bd0e7629c3}{%
+           family={Herceg},
+           familyi={H\bibinitperiod},
+           given={Tomáš},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{fcd8927b4f37072ebcb895bd0e7629c3}
+      \strng{fullhash}{fcd8927b4f37072ebcb895bd0e7629c3}
+      \strng{fullhashraw}{fcd8927b4f37072ebcb895bd0e7629c3}
+      \strng{bibnamehash}{fcd8927b4f37072ebcb895bd0e7629c3}
+      \strng{authorbibnamehash}{fcd8927b4f37072ebcb895bd0e7629c3}
+      \strng{authornamehash}{fcd8927b4f37072ebcb895bd0e7629c3}
+      \strng{authorfullhash}{fcd8927b4f37072ebcb895bd0e7629c3}
+      \strng{authorfullhashraw}{fcd8927b4f37072ebcb895bd0e7629c3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modernizing. NET Web Applications: Everything You Need to Know about Migrating ASP. NET Web Applications to the Latest Version of. NET}
+      \field{year}{2024}
+    \endentry
+    \entry{enriquez2023impacto}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=4f61a449354796c57d556eb72e0c8f58}{%
+           family={Enríquez},
+           familyi={E\bibinitperiod},
+           given={Franklin},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5dcbbcd72a1d82f9042e7d74b201b72c}{%
+           family={Fierro},
+           familyi={F\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod}}}%
+        {{hash=06870e4809df96ed05ccc0f8a422eaf5}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod}}}%
+        {{hash=05a6cbdbe036584875246235aad3edb0}{%
+           family={Esparza},
+           familyi={E\bibinitperiod},
+           given={Daisy\bibnamedelima Imbaquingo},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=89f3a85c00c758437630f844f51a54a8}{%
+           family={Michelena},
+           familyi={M\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d220dab9d5e53937f7607df31f5f6ddb}
+      \strng{fullhash}{099f184821d906a4c18b72aab160e99a}
+      \strng{fullhashraw}{099f184821d906a4c18b72aab160e99a}
+      \strng{bibnamehash}{d220dab9d5e53937f7607df31f5f6ddb}
+      \strng{authorbibnamehash}{d220dab9d5e53937f7607df31f5f6ddb}
+      \strng{authornamehash}{d220dab9d5e53937f7607df31f5f6ddb}
+      \strng{authorfullhash}{099f184821d906a4c18b72aab160e99a}
+      \strng{authorfullhashraw}{099f184821d906a4c18b72aab160e99a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EASI: Engineering and Applied Sciences in Industry}
+      \field{number}{1}
+      \field{title}{Impacto del patrón modelo vista controlador (MVC) en la seguridad, interoperabilidad y usabilidad de un sistema informático durante su ciclo de vida}
+      \field{volume}{2}
+      \field{year}{2023}
+      \field{pages}{11\bibrangedash 16}
+      \range{pages}{6}
+    \endentry
+  \enddatalist
+  \missing{Microsoft:Concepto}
+  \missing{Sistema:2018:Ivan}
+  \missing{davenport2018}
+  \missing{heeks2006}
+  \missing{laudon2020}
+  \missing{stair2018}
+  \missing{turban2019}
+  \missing{ward2016}
+  \missing{whitman2018}
+\endrefsection
+\endinput
+
