@@ -178,102 +178,13 @@
       \field{pages}{11\bibrangedash 16}
       \range{pages}{6}
     \endentry
-    \entry{laudon2020}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=2a3d8893ad04ba3c98081349c47e2f6c}{%
-           family={Laudon},
-           familyi={L\bibinitperiod},
-           given={Kenneth\bibnamedelima C.},
-           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=7104f050b378ef23f0bc36c2b73e5ea2}{%
-           family={Laudon},
-           familyi={L\bibinitperiod},
-           given={Jane\bibnamedelima P.},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Pearson}%
-      }
-      \strng{namehash}{a99ce1573b42821945806f73f25db5a4}
-      \strng{fullhash}{a99ce1573b42821945806f73f25db5a4}
-      \strng{fullhashraw}{a99ce1573b42821945806f73f25db5a4}
-      \strng{bibnamehash}{a99ce1573b42821945806f73f25db5a4}
-      \strng{authorbibnamehash}{a99ce1573b42821945806f73f25db5a4}
-      \strng{authornamehash}{a99ce1573b42821945806f73f25db5a4}
-      \strng{authorfullhash}{a99ce1573b42821945806f73f25db5a4}
-      \strng{authorfullhashraw}{a99ce1573b42821945806f73f25db5a4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{16}
-      \field{title}{Management Information Systems: Managing the Digital Firm}
-      \field{year}{2020}
-      \verb{doi}
-      \verb 10.5555/mitpress
-      \endverb
-    \endentry
-    \entry{stair2018}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=c303a69e2904de5b26c545a578671050}{%
-           family={Stair},
-           familyi={S\bibinitperiod},
-           given={Ralph},
-           giveni={R\bibinitperiod}}}%
-        {{hash=f73315690d58d24cdee8ed857c163a08}{%
-           family={Reynolds},
-           familyi={R\bibinitperiod},
-           given={George},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Cengage Learning}%
-      }
-      \strng{namehash}{9fd377970fb33bc09a57d0749b982599}
-      \strng{fullhash}{9fd377970fb33bc09a57d0749b982599}
-      \strng{fullhashraw}{9fd377970fb33bc09a57d0749b982599}
-      \strng{bibnamehash}{9fd377970fb33bc09a57d0749b982599}
-      \strng{authorbibnamehash}{9fd377970fb33bc09a57d0749b982599}
-      \strng{authornamehash}{9fd377970fb33bc09a57d0749b982599}
-      \strng{authorfullhash}{9fd377970fb33bc09a57d0749b982599}
-      \strng{authorfullhashraw}{9fd377970fb33bc09a57d0749b982599}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{13}
-      \field{title}{Principles of Information Systems}
-      \field{year}{2018}
-      \verb{doi}
-      \verb 10.1007/978-1-137-59048-9
-      \endverb
-    \endentry
-    \entry{Microsoft:Concepto}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={Microsoft},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://code.visualstud io.com/.}}
-      \field{title}{Visual Studio Code - Code Editing. Redefined.}
-      \field{year}{2016}
-    \endentry
   \enddatalist
+  \missing{Microsoft:Concepto}
   \missing{Sistema:2018:Ivan}
   \missing{davenport2018}
   \missing{heeks2006}
+  \missing{laudon2020}
+  \missing{stair2018}
   \missing{turban2019}
   \missing{ward2016}
   \missing{whitman2018}
