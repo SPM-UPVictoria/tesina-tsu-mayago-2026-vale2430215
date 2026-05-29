@@ -35,6 +35,41 @@ Entre estas limitaciones destacan las dificultades de mantenimiento, la compleji
 \subsubsection{Antecedentes teóricos}
 \label{sec:antecedentes_teoricos}
 
+\paragraph{Sistemas Heredados (Legacy Systems) en Administración Pública} ~\\
+\label{sec:legacy_systems}El avance continuo de las tecnologías de la información provoca que sistemas informáticos que han sido utilizados por años se conviertan en sistemas heredados o legacy systems, los cuales, a pesar de presentar limitaciones técnicas u operativas, siguen vigentes porque estos tienen un alto valor y tienen datos que ya son vitales para la organización. En las organizaciones públicas, la eliminación o sustitución inmediata de estas plataformas es una tarea sumamente compleja debido al riesgo latente de interrumpir las actividades administrativas diarias y afectar directamente la continuidad de la entrega de servicios institucionales.
+
+Con el paso de los años, mantener estos sistemas antiguos eleva considerablemente los costos de soporte técnico y aumenta la dificultad de mantenimiento debido a la escasez de expertos en herramientas obsoletas junto con una documentación de referencia que suele ser insuficiente. De acuerdo con Mandviwalla et al. (2026)\cite{mandviwalla2025modernizing}, los sistemas heredados centrales personalizados terminan atrapando las prácticas críticas de la organización y su información en un entorno técnico moribundo y rígido. Esto no solo incrementa la vulnerabilidad ante ciberataques o caídas operativas, sino que convierte al software en una "trampa de valor" que frena la innovación interna, bloquea la agilidad institucional y dificulta la consolidación limpia de los datos.
+
+\paragraph{Limitaciones Técnicas de ASP.NET Web Forms} ~\\
+\label{sec:limitaciones_aspnet}Un ejemplo de esta problemática de obsolescencia se presenta en las aplicaciones web desarrolladas bajo el entorno de ASP.NET Web Forms. Según Herceg (2024)\cite{herceg2024modernizing}, esta tecnología de generaciones previas basaba su arquitectura en componentes de servidor y en un estado persistente oculto denominado View State, el cual provocaba transferencias de datos pesadas y complejas (postbacks) hacia el servidor ante cualquier interacción del usuario. Este flujo no solo generaba problemas de parpadeo y lentitud en las interfaces disminuyendo la usabilidad, sino que introducía un fuerte acoplamiento con los componentes del sistema operativo Windows y el servidor de aplicaciones IIS (Internet Information Services).
+
+Microsoft determinó omitir por completo el soporte para la tecnología Web Forms en las nuevas generaciones de .NET Core y .NET moderno, enfocándose exclusivamente en el desarrollo de plataformas más ligeras y eficientes. Herceg (2024)\cite{herceg2024modernizing} subraya que, debido a que no existe un marco equivalente directo en las versiones actuales, la migración de un sistema basado en Web Forms implica obligatoriamente una reingeniería profunda y la reescritura total de las páginas y elementos de la interfaz de usuario utilizando nuevas tecnologías de presentación.
+
+\paragraph{Impacto de la Arquitectura Modelo-Vista-Controlador (MVC)} ~\\
+\label{sec:impacto_mvc}Para evitar el código extenso, rígido y difícil de mantener en un proyecto, la ingeniería de software implementa ciertos patrones de diseño que nos ayudan al desarrollo de nuestros proyectos. Entre estas estructuras, se encuentra el patrón Modelo-Vista-Controlador (MVC) destaca por proponer una división modular de la aplicación en tres componentes: el modelo, encargado de la gestión y acceso a la base de datos; la vista, que es la presentación visual de la información al usuario; y el controlador, que procesa las solicitudes y dirige el flujo de la aplicación.
+
+La utilización de este enfoque aporta ventajas significativas durante todo el ciclo de vida del sistema. Enríquez et al. (2023)\cite{enriquez2023impacto} demuestran mediante su investigación que el patrón MVC tiene un impacto positivo sobre la seguridad, la interoperabilidad y la usabilidad de las soluciones tecnológicas corporativas. Al separar la lógica de presentación de la lógica de negocio, el patrón MVC permite a los desarrolladores lograr una mayor escalabilidad, facilitar la reutilización de componentes de software y reducir la complejidad en la realización de pruebas funcionales frente a otro tipo de patrones.
+
+\paragraph{Tabla Comparativa de Tecnologías} ~\\
+\label{sec:tablacomparativa}Como se puede observar en la Tabla \ref{tab:tabla_tecnologias}, se contrastan las deficiencias tecnológicas de la plataforma actual frente a las ventajas de la propuesta de rediseño, fundamentando la necesidad de realizar la modernización en el presente.
+
+\begin{table}[H]
+    \centering
+    \caption{Tabla Comparativa de Tecnologías y Justificación de Modernización.}
+    \label{tab:tabla_tecnologias}
+    \small
+    \begin{longtable}{|p{2.8cm}|p{4.2cm}|p{4.2cm}|p{5.3cm}|}
+        \hline
+        \textbf{Criterio de comparación} & \textbf{ASP.NET Web Forms (Sistema Heredado)} & \textbf{Arquitectura MVC en .NET Moderno (Propuesta)} & \textbf{Motivo de la Modernización Actual (Justificación)} \\
+        \hline
+        Arquitectura de Software & Estructura basada en componentes de servidor rígidos y un estado persistente (View State). & Separación en tres capas independientes con responsabilidades distintas, que son: Modelo, Vista y Controlador. & Web Forms es una tecnología obsoleta que carece por completo de soporte o alternativas en las versiones actuales de .NET.\\ \hline
+        Mantenibilidad y Código & Propensión a mezclar la lógica de negocio dentro del código visual. & Alta modularidad que promueve el aislamiento de las reglas del negocio, facilitando la reutilización y evolución del código. & Reducir la alta deuda técnica acumulada por más de 15 años, disminuir los costosos gastos de soporte y agilizar la integración de nuevas funciones operativas. \\ \hline
+        Dependencia Tecnológica & Dependencia con componentes específicos de Windows y el servidor de aplicaciones IIS. & Diseñado de forma ligera para trabajar en entornos distribuidos o contenedores en la nube. & El entorno moderno exige agilidad multiplataforma y la capacidad técnica de responder velozmente a demandas globales de la institución. \\ \hline
+        Seguridad & Uso de Membership Providers desactualizados cuyos antiguos algoritmos de cifrado ya no son seguros hoy en día. & Gestión avanzada de identidades e integración segura mediante APIs modernas y controles basados en roles. & Salvaguardar de manera estricta la información sensible del personal y mitigar riesgos cibernéticos. \\
+        \hline
+    \end{longtable}
+\end{table}
+
 \subsection{Definición del Problema}
 \label{sec:problema}
 
@@ -91,59 +126,24 @@ El sistema incluirá funcionalidades para el registro, consulta, actualización 
 El proyecto estará enfocado exclusivamente en una plataforma web, por lo que no se desarrollará una aplicación móvil nativa. Además, el funcionamiento del sistema dependerá de la disponibilidad de conexión a internet y de la infraestructura tecnológica proporcionada por la institución.
 
 Otra limitación corresponde al tiempo disponible, que consta de 4 meses, para el desarrollo e implementación del proyecto, lo cual puede restringir la incorporación de funcionalidades adicionales o mejoras futuras no consideradas en el alcance inicial.
-\subsection{Ejemplos de Tablas e Inclusión de Imágenes}
-\label{sec:ejemplos_elementos}
 
-Para ilustrar el uso de elementos visuales en su tesis, a continuación se presentan ejemplos básicos de cómo incluir tablas e imágenes en LaTeX.
+\subsubsection{Marco Teórico}
+\label{subsec:marco_teorico}
 
-\subsubsection{Inclusión de Tablas}
+Temas propuestos para marco teórico:
 
-Las tablas son herramientas fundamentales para presentar datos de manera organizada y comprensible.
-\begin{table}[H]
-    \centering
-    \caption{Clasificación de Sensores Comunes en Ingeniería.}
-    \label{tab:sensores_comunes}
-    \begin{tabular}{|l|c|c|}
-        \hline
-        \textbf{Tipo de Sensor} & \textbf{Magnitud Medida} & \textbf{Principio de Funcionamiento} \\
-        \hline
-        Termopar & Temperatura & Efecto Seebeck \\
-        Extensómetro & Deformación & Resistencia eléctrica \\
-        Acelerómetro & Aceleración & Efecto piezoeléctrico \\
-        Encoder rotatorio & Posición angular & Óptico/Magnético \\
-        \hline
-    \end{tabular}
-    \caption*{Nota: Esta tabla es un ejemplo para demostrar la estructura básica de una tabla en LaTeX.}
-\end{table}
-Como se puede observar en la Tabla \ref{tab:sensores_comunes}, la información se presenta de forma clara y estructurada. Es importante añadir un \verb|`\caption`|  para describir la tabla y un  \verb|`\label`|  para referenciarla en el texto.
+1.Modernización de Sistemas
+-Sistemas Heredados (Legacy Systems)
 
-\subsubsection{Inclusión de Imágenes}
+2.Evolución de las Tecnologías de Desarrollo Web en Microsoft
+-La Era de ASP.NET Web Forms
+-Nueva Generación de la Plataforma .NET (.NET Core y .NET moderno)
 
-Las imágenes, gráficos o diagramas son cruciales para complementar la explicación textual y facilitar la comprensión de conceptos complejos o resultados visuales.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{img/diagrama_proceso}
-    \caption{Diagrama de un proceso de control automático.}
-    \label{fig:diagrama_control}
-\end{figure}
-% La Figura \ref{fig:diagrama_control} ilustra un ejemplo de un diagrama de un proceso de control. Para incluir una imagen, se utiliza el entorno `figure` y el comando `\includegraphics`. Es fundamental especificar la ruta de la imagen (en este caso, `images/diagrama_proceso.png`) y un `width` para controlar su tamaño. Al igual que con las tablas, un `\caption` y un `\label` son indispensables. Es crucial que cada imagen tenga una calidad adecuada y que sea relevante para el texto.
+3.Patrones de Diseño y Arquitectura de Software
+-Patrones Arquitectónicos
+--Patrón Modelo-Vista-Controlador (MVC)
 
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-        \includegraphics[width=\textwidth]{img/grafico_datos1}
-        \caption{Datos de Temperatura.}
-        \label{fig:subfig_temp}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.45\textwidth}
-        \includegraphics[width=\textwidth]{img/grafico_datos2}
-        \caption{Datos de Presión.}
-        \label{fig:subfig_pres}
-    \end{subfigure}
-    \caption{Comparación de datos operativos de un sistema (Temperatura vs. Presión).}
-    \label{fig:comparacion_datos}
-\end{figure}
-Incluso es posible combinar varias imágenes en una sola figura, como se muestra en la Figura \ref{fig:comparacion_datos}, utilizando el paquete `subcaption`.
-
-Asegúrense de que todas las figuras y tablas estén debidamente referenciadas en el texto y que su contenido sea autoexplicativo, utilizando los pies de figura y títulos de tabla de manera efectiva.
+4.Seguridad, Autenticación e Integración de Datos
+-Control de Acceso Basado en Roles (RBAC)
+-Integración de Sistemas mediante APIs
+-Persistencia y Mapeo de Datos
