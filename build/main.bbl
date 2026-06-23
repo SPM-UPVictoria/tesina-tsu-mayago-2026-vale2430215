@@ -178,6 +178,55 @@
       \field{pages}{11\bibrangedash 16}
       \range{pages}{6}
     \endentry
+    \entry{AbuBakar2020LegacyModernization}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=4411562b63c3178c7c0a18cf28ceb4f1}{%
+           family={Bakar},
+           familyi={B\bibinitperiod},
+           given={Humairath\bibnamedelimb K.\bibnamedelimi M.\bibnamedelimi Abu},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ff0273391f4e1edd28974940966d23b0}{%
+           family={Razali},
+           familyi={R\bibinitperiod},
+           given={Rozilawati},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2ece2cf1ae50ea75b4a4882aafd411b8}{%
+           family={Jambari},
+           familyi={J\bibinitperiod},
+           given={Dian\bibnamedelima Indrayani},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{fce2ae67bbc128eb77a67f2be7b06077}
+      \strng{fullhash}{fce2ae67bbc128eb77a67f2be7b06077}
+      \strng{fullhashraw}{fce2ae67bbc128eb77a67f2be7b06077}
+      \strng{bibnamehash}{fce2ae67bbc128eb77a67f2be7b06077}
+      \strng{authorbibnamehash}{fce2ae67bbc128eb77a67f2be7b06077}
+      \strng{authornamehash}{fce2ae67bbc128eb77a67f2be7b06077}
+      \strng{authorfullhash}{fce2ae67bbc128eb77a67f2be7b06077}
+      \strng{authorfullhashraw}{fce2ae67bbc128eb77a67f2be7b06077}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2088-5334}
+      \field{journaltitle}{International Journal on Advanced Science, Engineering and Information Technology}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{A Guidance to Legacy Systems Modernization}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{1042\bibrangedash 1050}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.18517/ijaseit.10.3.10265
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.18517/ijaseit.10.3.10265
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.18517/ijaseit.10.3.10265
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
