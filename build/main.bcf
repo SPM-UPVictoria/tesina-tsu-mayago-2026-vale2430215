@@ -2385,6 +2385,9 @@
     <bcf:citekey order="10" intorder="1">AbuBakar2020LegacyModernization</bcf:citekey>
     <bcf:citekey order="11" intorder="1">AbuBakar2020LegacyModernization</bcf:citekey>
     <bcf:citekey order="12" intorder="1">mandviwalla2025modernizing</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">zhu2022diseno</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">herceg2024modernizing</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">MicrosoftLibraryChangeRules</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

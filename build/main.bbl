@@ -227,6 +227,55 @@
       \verb https://doi.org/10.18517/ijaseit.10.3.10265
       \endverb
     \endentry
+    \entry{zhu2022diseno}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bd313c991d0e503f199197406aa0de78}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Yidong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ETSI\_Informatica}%
+      }
+      \strng{namehash}{bd313c991d0e503f199197406aa0de78}
+      \strng{fullhash}{bd313c991d0e503f199197406aa0de78}
+      \strng{fullhashraw}{bd313c991d0e503f199197406aa0de78}
+      \strng{bibnamehash}{bd313c991d0e503f199197406aa0de78}
+      \strng{authorbibnamehash}{bd313c991d0e503f199197406aa0de78}
+      \strng{authornamehash}{bd313c991d0e503f199197406aa0de78}
+      \strng{authorfullhash}{bd313c991d0e503f199197406aa0de78}
+      \strng{authorfullhashraw}{bd313c991d0e503f199197406aa0de78}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Diseño y desarrollo de una infraestructura web en. Net para empresa mediana o pequeña}
+      \field{year}{2022}
+    \endentry
+    \entry{MicrosoftLibraryChangeRules}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://learn.microsoft.com/en-us/dotnet/core/compatibility/library-change-rules}}
+      \field{note}{Microsoft Learn. Accessed: 2026-06-23}
+      \field{title}{Library Change Rules}
+      \field{year}{2025}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

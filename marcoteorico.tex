@@ -14,10 +14,15 @@ Sobre esto, Mandviwalla, Tiwana y Bradshaw (2026) comentan que los sistemas viej
 
 \subsection{Evolución de las Tecnologías de Desarrollo Web en Microsoft}
 \label{sec:evolucion_tecnologias}
+El desarrollo de aplicaciones web con Microsoft ha pasado por una gran transformación a lo largo de las últimas décadas. Lo que comenzó como un modelo pensado para servidores locales y sistemas operativos Windows, ha evolucionado hacia un entorno completamente abierto y diseñado para la nube. Esta evolución no solo representa un cambio de herramientas, sino un cambio completo en la manera de programar de los desarrolladores y en las metodologías usadas por las organizaciones para actualizar sus aplicaciones.
 
 \subsubsection{La Era de ASP.NET Web Forms}
 \label{sec:aspnet_webforms}
+Lanzado a principios de la década de los 2000, ASP.NET Web Forms fue fundamental durante muchos años para la creación de sistemas empresariales y gubernamentales a gran escala. Como explica el ingeniero Yidong Zhu (2022), esta tecnología nació con el objetivo de simplificar drásticamente la programación web, permitiendo a los desarrolladores arrastrar y soltar elementos visuales en la pantalla para mostrar bases de datos o crear formularios complejos en pocos minutos.\cite{zhu2022diseno}
 
+Sin embargo, para lograr esta simplicidad en una época donde los diseños monolíticos eran la norma, Web Forms introdujo un mecanismo llamado View State. Este componente consistía en un campo oculto que guardaba el estado de la página y se enviaba de ida y vuelta al servidor en cada clic. Tomáš Herceg (2024) señala que, aunque esto facilitaba las cosas al programador, con el tiempo volvía a las páginas lentas, propensas a parpadeos y generaba un código muy extenso que mezclaba la lógica del negocio con la parte visual, haciendo que el mantenimiento fuera una tarea pesada.\cite{herceg2024modernizing}
+
+Además, la documentación oficial de .NET (2026), estas aplicaciones dependían obligatoriamente del sistema operativo Windows y del servidor Internet Information Services (IIS). Al ser una arquitectura tan amarrada a Windows, Microsoft decidió no incluir soporte para Web Forms en sus nuevas plataformas, obligando a que cualquier modernización requiera una reescritura completa de las interfaces.\cite{MicrosoftLibraryChangeRules}
 \subsubsection{Nueva Generación de la Plataforma .NET (.NET Core y .NET moderno)}
 \label{sec:nueva_generacion_net}
 
