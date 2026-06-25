@@ -30,13 +30,13 @@
 \contentsline {subsection}{\numberline {2.3}Patrones de Diseño y Arquitectura de Software}{11}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Patrones Arquitectónicos}{11}{subsubsection.2.3.1}%
 \contentsline {paragraph}{\numberline {2.3.1.1}Patrón Modelo-Vista-Controlador (MVC)}{11}{paragraph.2.3.1.1}%
-\contentsline {subsection}{\numberline {2.4}Seguridad, Autenticación e Integración de Datos}{11}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Control de Acceso Basado en Roles (RBAC)}{11}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Integración de Sistemas mediante APIs}{11}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Persistencia y Mapeo de Datos}{11}{subsubsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.5}Propuesta de Solución}{11}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Metodología}{12}{section.3}%
-\contentsline {section}{\numberline {4}Resultados}{13}{section.4}%
-\contentsline {section}{\numberline {5}Conclusiones}{14}{section.5}%
-\contentsline {section}{Bibliografía}{15}{section.5}%
-\contentsline {section}{Anexos}{16}{section.5}%
+\contentsline {subsection}{\numberline {2.4}Seguridad, Autenticación e Integración de Datos}{12}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Control de Acceso Basado en Roles (RBAC)}{12}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Integración de Sistemas mediante APIs}{12}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Persistencia y Mapeo de Datos}{12}{subsubsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.5}Propuesta de Solución}{12}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Metodología}{13}{section.3}%
+\contentsline {section}{\numberline {4}Resultados}{14}{section.4}%
+\contentsline {section}{\numberline {5}Conclusiones}{15}{section.5}%
+\contentsline {section}{Bibliografía}{16}{section.5}%
+\contentsline {section}{Anexos}{17}{section.5}%

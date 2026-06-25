@@ -253,28 +253,84 @@
       \field{title}{Diseño y desarrollo de una infraestructura web en. Net para empresa mediana o pequeña}
       \field{year}{2022}
     \endentry
-    \entry{MicrosoftLibraryChangeRules}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
-           familyi={M\bibinitperiod}}}%
+    \entry{MontesBaez2024Serverbox}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9f782d58dda02d5cb3bec503592b3008}{%
+           family={Baez},
+           familyi={B\bibinitperiod},
+           given={José\bibnamedelimb Cruz\bibnamedelima Montes},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=47c986f446c714afd3e980b34ad9f47d}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={Alberto\bibnamedelima Portilla},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{namehash}{1279d15bacb89c92ec04a9b9ec1707ab}
+      \strng{fullhash}{1279d15bacb89c92ec04a9b9ec1707ab}
+      \strng{fullhashraw}{1279d15bacb89c92ec04a9b9ec1707ab}
+      \strng{bibnamehash}{1279d15bacb89c92ec04a9b9ec1707ab}
+      \strng{authorbibnamehash}{1279d15bacb89c92ec04a9b9ec1707ab}
+      \strng{authornamehash}{1279d15bacb89c92ec04a9b9ec1707ab}
+      \strng{authorfullhash}{1279d15bacb89c92ec04a9b9ec1707ab}
+      \strng{authorfullhashraw}{1279d15bacb89c92ec04a9b9ec1707ab}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://learn.microsoft.com/en-us/dotnet/core/compatibility/library-change-rules}}
-      \field{note}{Microsoft Learn. Accessed: 2026-06-23}
-      \field{title}{Library Change Rules}
+      \field{issn}{2387-0893}
+      \field{journaltitle}{Revista de Investigación en Tecnologías de la Información}
+      \field{number}{27 Especial}
+      \field{title}{Migración de serverbox hacia un sistema de microservicios aplicando arquitectura vertical}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{53\bibrangedash 66}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.36825/RITI.12.27.006
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.36825/RITI.12.27.006
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.36825/RITI.12.27.006
+      \endverb
+    \endentry
+    \entry{Montgomery2025ModernizingEnterpriseWebPlatforms}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0b5764b2a1073264d58b6ac12cff7c9e}{%
+           family={Montgomery},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b5764b2a1073264d58b6ac12cff7c9e}
+      \strng{fullhash}{0b5764b2a1073264d58b6ac12cff7c9e}
+      \strng{fullhashraw}{0b5764b2a1073264d58b6ac12cff7c9e}
+      \strng{bibnamehash}{0b5764b2a1073264d58b6ac12cff7c9e}
+      \strng{authorbibnamehash}{0b5764b2a1073264d58b6ac12cff7c9e}
+      \strng{authornamehash}{0b5764b2a1073264d58b6ac12cff7c9e}
+      \strng{authorfullhash}{0b5764b2a1073264d58b6ac12cff7c9e}
+      \strng{authorfullhashraw}{0b5764b2a1073264d58b6ac12cff7c9e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Journal of Engineering and Technology}
+      \field{month}{11}
+      \field{note}{Retrieved from The American Journals}
+      \field{number}{11}
+      \field{title}{Modernizing Enterprise Web Platforms: An Evolutionary Analysis of ASP.NET to ASP.NET Core Transition Strategies}
+      \field{volume}{7}
       \field{year}{2025}
+      \field{pages}{227\bibrangedash 234}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb https://www.theamericanjournals.com/index.php/tajet/article/view/7383
+      \endverb
+      \verb{url}
+      \verb https://www.theamericanjournals.com/index.php/tajet/article/view/7383
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
