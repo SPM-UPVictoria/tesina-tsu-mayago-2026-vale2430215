@@ -332,6 +332,83 @@
       \verb https://www.theamericanjournals.com/index.php/tajet/article/view/7383
       \endverb
     \endentry
+    \entry{alvarez2022analisis}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ae1db4a52ab82f7f00b3552c9b599b52}{%
+           family={Alvarez},
+           familyi={A\bibinitperiod},
+           given={Oscar\bibnamedelimb Danilo\bibnamedelima Gavilánez},
+           giveni={O\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=13b0f3a554be46993391f6fb0cacb806}{%
+           family={Larrea},
+           familyi={L\bibinitperiod},
+           given={Natalia\bibnamedelimb Patricia\bibnamedelima Layedra},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a441271b378ed2b0aff910dd48e328b8}{%
+           family={Valencia},
+           familyi={V\bibinitperiod},
+           given={Marco\bibnamedelimb Vinicio\bibnamedelima Ramos},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Coni}%
+      }
+      \strng{namehash}{be01cc6842528d93a3491170161a3723}
+      \strng{fullhash}{be01cc6842528d93a3491170161a3723}
+      \strng{fullhashraw}{be01cc6842528d93a3491170161a3723}
+      \strng{bibnamehash}{be01cc6842528d93a3491170161a3723}
+      \strng{authorbibnamehash}{be01cc6842528d93a3491170161a3723}
+      \strng{authornamehash}{be01cc6842528d93a3491170161a3723}
+      \strng{authorfullhash}{be01cc6842528d93a3491170161a3723}
+      \strng{authorfullhashraw}{be01cc6842528d93a3491170161a3723}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polo del Conocimiento: Revista científico-profesional}
+      \field{number}{7}
+      \field{title}{Análisis comparativo de Patrones de Diseño de Software}
+      \field{volume}{7}
+      \field{year}{2022}
+      \field{pages}{2146\bibrangedash 2165}
+      \range{pages}{20}
+    \endentry
+    \entry{giraldo2021marco}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=dc7849f95d31f5690a932385f8b6034f}{%
+           family={Giraldo\bibnamedelima Mejía},
+           familyi={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Juan\bibnamedelima Camilo},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=86144d8e7cd4b9bcec0b399aaa674274}{%
+           family={Vargas\bibnamedelima Agudelo},
+           familyi={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Fabio\bibnamedelima Alberto},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=139b33050f54df6d8ae9fbb28b4e2b5c}{%
+           family={Garzón\bibnamedelima Gil},
+           familyi={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Kelly\bibnamedelima Johana},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Porto AISTI}%
+      }
+      \strng{namehash}{2dc69422e1c5553bd0a77d10f823bf7c}
+      \strng{fullhash}{2dc69422e1c5553bd0a77d10f823bf7c}
+      \strng{fullhashraw}{2dc69422e1c5553bd0a77d10f823bf7c}
+      \strng{bibnamehash}{2dc69422e1c5553bd0a77d10f823bf7c}
+      \strng{authorbibnamehash}{2dc69422e1c5553bd0a77d10f823bf7c}
+      \strng{authornamehash}{2dc69422e1c5553bd0a77d10f823bf7c}
+      \strng{authorfullhash}{2dc69422e1c5553bd0a77d10f823bf7c}
+      \strng{authorfullhashraw}{2dc69422e1c5553bd0a77d10f823bf7c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Marco de trabajo para seleccionar un patrón arquitectónico en el desarrollo de software}
+      \field{year}{2021}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -30,12 +30,26 @@ La verdadera revolución llegó en el año 2016 con el lanzamiento de .NET Core 
 Esta nueva plataforma destaca principalmente por su alto rendimiento y velocidad. Los ingenieros Montes Baez y Portilla Flores (2024) señalan que la adopción de arquitecturas distribuidas y microservicios en ASP.NET Core permite desarrollar, probar y desplegar componentes de manera independiente, lo que facilita la actualización de funcionalidades específicas sin necesidad de publicar todo el sistema y mejora su agilidad y escalabilidad.\cite{MontesBaez2024Serverbox} De acuerdo con Montgomery (2025), él sostiene que la migración hacia .NET moderno favorece la adopción de arquitecturas modulares y orientadas a la nube, incrementando la flexibilidad, la capacidad de crecimiento y la adaptación de los sistemas empresariales a las necesidades tecnológicas actuales.\cite{Montgomery2025ModernizingEnterpriseWebPlatforms}
 \subsection{Patrones de Diseño y Arquitectura de Software}
 \label{sec:patrones_diseno}
+En el ámbito de la ingeniería de software, los programadores buscan constantemente estrategias para estructurar el código de manera eficiente, optimizar la velocidad de su trabajo y mejorar la calidad de las aplicaciones. A lo largo de un proyecto, es habitual que se repitan características similares dentro del código para elaborar elementos comunes de la interfaz. Si estas características no se gestionan correctamente, suelen duplicarse, lo que genera un código realmente extenso, desorganizado y difícil de mantener. 
 
+Para solucionar este inconveniente, se introdujeron los patrones de diseño. Aplicado en desarrollo de sistemas, los investigadores Gavilánez Alvarez, Layedra y Ramos (2022) aclaran que un patrón de diseño no consiste en un conjunto de herramientas que se instalan directamente en el código de una aplicación, sino que es un concepto y un razonamiento lógico bien definido para resolver problemas comunes de organización e interfaces.\cite{alvarez2022analisis} Su implementación evita la duplicación de código, facilita su reutilización y asegura la validez del software al basarse en estructuras que ya han sido probadas por otros desarrolladores.
 \subsubsection{Patrones Arquitectónicos}
 \label{sec:patrones_arquitectonicos}
+Debido al gran número de patrones que existen en la actualidad, es necesario agruparlos en categorías según sus características o propósitos. En el nivel más alto de esta clasificación se encuentran los patrones arquitectónicos. Como señalan Enríquez et al. (2023), los patrones arquitectónicos definen la estructura básica de un sistema informático y funcionan como una plantilla base sobre la cual se construye una aplicación, permitiendo organizar sus componentes y responsabilidades de manera más eficiente.\cite{enriquez2023impacto}
 
 \paragraph{Patrón Modelo-Vista-Controlador (MVC)} ~\\
-\label{sec:mvc}
+\label{sec:mvc}El Modelo-Vista-Controlador, conocido popularmente como MVC, es uno de los patrones arquitectónicos más utilizados y populares en la industria del desarrollo de software. Fue descrito por primera vez por Trygve Reenskaug en el año 1979. Según la revisión bibliográfica realizada por Gavilánez Alvarez, Layedra y Ramos (2022), el propósito fundamental del MVC es clasificar la información, la lógica interna del sistema y la interfaz que se le presenta al usuario, dividiendo la aplicación en tres módulos o componentes.\cite{alvarez2022analisis}
+
+Los componentes son:\cite{enriquez2023impacto}
+\begin{itemize}
+    \item \textbf{Modelo:} Es el componente responsable de manipular, gestionar y actualizar directamente los datos del sistema.
+    \item \textbf{Vista:} Se encarga de la interfaz de usuario. Su función es presentar visualmente la información en pantallas y recibir las interacciones finales del usuario.
+    \item \textbf{Controlador:} Su función es comunicar al modelo con la vista, solicita los datos necesarios al modelo, los procesa y se los entrega a la vista para que los muestre.
+\end{itemize}
+
+Enríquez et al. (2023) destacan en sus conclusiones que el patrón MVC ofrece ventajas sustanciales, ya que permite separar limpiamente la lógica de la presentación de la lógica de negocio, lo que otorga una alta robustez al software, facilita enormemente la reutilización de código y agiliza la realización de pruebas unitarias o de testing.\cite{enriquez2023impacto}
+Por su parte, Giraldo Mejía, Vargas Agudelo y Garzón Gil (2021) señalan que el patrón MVC constituye una alternativa adecuada para proyectos de desarrollo web que requieren mantenibilidad, rendimiento y flexibilidad. Asimismo, destacan que definir una arquitectura antes de iniciar la codificación permite a los equipos de desarrollo reducir reprocesos y mantener una estructura organizada y mantenible a lo largo del proyecto.\cite{giraldo2021marco}
+
 \subsection{Seguridad, Autenticación e Integración de Datos}
 \label{sec:seguridad_autenticacion}
 

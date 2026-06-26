@@ -2391,6 +2391,12 @@
     <bcf:citekey order="16" intorder="1">herceg2024modernizing</bcf:citekey>
     <bcf:citekey order="17" intorder="1">MontesBaez2024Serverbox</bcf:citekey>
     <bcf:citekey order="18" intorder="1">Montgomery2025ModernizingEnterpriseWebPlatforms</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">alvarez2022analisis</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">enriquez2023impacto</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">alvarez2022analisis</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">enriquez2023impacto</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">enriquez2023impacto</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">giraldo2021marco</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

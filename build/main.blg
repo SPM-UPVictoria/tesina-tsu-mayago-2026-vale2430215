@@ -1,16 +1,16 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'build/main.blg'
-[309] biber-MSWIN64:342> INFO - === 
-[434] Biber.pm:421> INFO - Reading 'build/main.bcf'
-[852] Biber.pm:1002> INFO - Found 9 citekeys in bib section 0
-[905] Biber.pm:4487> INFO - Processing section 0
-[942] Biber.pm:4678> INFO - Looking for bibtex file 'Referencias.bib' for section 0
-[1090] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1150] bibtex.pm:1519> INFO - Found BibTeX data source 'Referencias.bib'
-[1388] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1389] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1389] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[1437] bbl.pm:676> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[1456] bbl.pm:779> INFO - Output to build/main.bbl
-[1457] Biber.pm:132> WARN - legacy year field 's.f.' in entry 'PJETAM:MisionVision' is not an integer - this will probably not sort properly.
-[1457] Biber.pm:134> INFO - WARNINGS: 1
+[0] Config.pm:331> INFO - Logfile is 'build/main.blg'
+[186] biber-MSWIN64:342> INFO - === 
+[247] Biber.pm:421> INFO - Reading 'build/main.bcf'
+[457] Biber.pm:1002> INFO - Found 11 citekeys in bib section 0
+[485] Biber.pm:4487> INFO - Processing section 0
+[503] Biber.pm:4678> INFO - Looking for bibtex file 'Referencias.bib' for section 0
+[582] bibtex.pm:1713> INFO - LaTeX decoding ...
+[612] bibtex.pm:1519> INFO - Found BibTeX data source 'Referencias.bib'
+[749] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[749] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[749] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[767] bbl.pm:676> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[777] bbl.pm:779> INFO - Output to build/main.bbl
+[777] Biber.pm:132> WARN - legacy year field 's.f.' in entry 'PJETAM:MisionVision' is not an integer - this will probably not sort properly.
+[777] Biber.pm:134> INFO - WARNINGS: 1
