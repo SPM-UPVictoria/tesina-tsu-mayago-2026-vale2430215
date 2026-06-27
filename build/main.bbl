@@ -409,6 +409,113 @@
       \field{title}{Marco de trabajo para seleccionar un patrón arquitectónico en el desarrollo de software}
       \field{year}{2021}
     \endentry
+    \entry{LezcanoGil2023SeguridadNube}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3af8de1b94a886ad88bc317e5784817b}{%
+           family={Gil},
+           familyi={G\bibinitperiod},
+           given={Alfredo\bibnamedelimb José\bibnamedelima Lezcano},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=86aa17785b53728409926a2629e5291e}{%
+           family={Dionicio},
+           familyi={D\bibinitperiod},
+           given={Percy\bibnamedelimb Olivarez\bibnamedelima Geronimo},
+           giveni={P\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=1d47c1bb20938ef0a51af2490737cd8e}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Alberto\bibnamedelimb Carlos\bibnamedelimb Mendoza\bibnamedelimb De\bibnamedelima Los},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{83de05e4d81b55f6db10b6d6518307a2}
+      \strng{fullhash}{83de05e4d81b55f6db10b6d6518307a2}
+      \strng{fullhashraw}{83de05e4d81b55f6db10b6d6518307a2}
+      \strng{bibnamehash}{83de05e4d81b55f6db10b6d6518307a2}
+      \strng{authorbibnamehash}{83de05e4d81b55f6db10b6d6518307a2}
+      \strng{authornamehash}{83de05e4d81b55f6db10b6d6518307a2}
+      \strng{authorfullhash}{83de05e4d81b55f6db10b6d6518307a2}
+      \strng{authorfullhashraw}{83de05e4d81b55f6db10b6d6518307a2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2708-3039}
+      \field{journaltitle}{Ingeniería Investiga}
+      \field{month}{7}
+      \field{title}{Principales medidas de seguridad para la protección de información y datos en la nube: una revisión sistemática}
+      \field{volume}{5}
+      \field{year}{2023}
+      \field{pages}{e796}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.47796/ing.v5i0.796
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.47796/ing.v5i0.796
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.47796/ing.v5i0.796
+      \endverb
+    \endentry
+    \entry{VillanuevaGuzman2025RestfulAPIs}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=9278d9544718594a0c8f11549ba5cc1c}{%
+           family={Guzmán},
+           familyi={G\bibinitperiod},
+           given={Jorge\bibnamedelimb Cein\bibnamedelima Villanueva},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=62ca0a8d3cc200538bcd3d5a556d42f7}{%
+           family={Domínguez},
+           familyi={D\bibinitperiod},
+           given={Ezequiel\bibnamedelima Gómez},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=98a8129ce8c6bbc97f8104d65d877bd4}{%
+           family={Reséndiz},
+           familyi={R\bibinitperiod},
+           given={Pedro\bibnamedelima Zamora},
+           giveni={P\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=b53ce5f9a65532c69c2aff656b017b9f}{%
+           family={Clemente},
+           familyi={C\bibinitperiod},
+           given={Antonio\bibnamedelima Priego},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=56b712b1c6a4087ff190b28ab293b784}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={Edgar\bibnamedelima Landero},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{12036e6ad4214fb30d87ff3c5235ec67}
+      \strng{fullhash}{56d173237a4892b8cb3994abce299328}
+      \strng{fullhashraw}{56d173237a4892b8cb3994abce299328}
+      \strng{bibnamehash}{12036e6ad4214fb30d87ff3c5235ec67}
+      \strng{authorbibnamehash}{12036e6ad4214fb30d87ff3c5235ec67}
+      \strng{authornamehash}{12036e6ad4214fb30d87ff3c5235ec67}
+      \strng{authorfullhash}{56d173237a4892b8cb3994abce299328}
+      \strng{authorfullhashraw}{56d173237a4892b8cb3994abce299328}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2707-2215}
+      \field{journaltitle}{Ciencia Latina Revista Científica Multidisciplinar}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{APIs RESTful para interoperabilidad entre aplicación Móvil y aplicación Web}
+      \field{volume}{9}
+      \field{year}{2025}
+      \field{pages}{6795\bibrangedash 6821}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.37811/cl_rcm.v9i3.18325
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.37811/cl_rcm.v9i3.18325
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.37811/cl_rcm.v9i3.18325
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
