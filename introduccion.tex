@@ -1,112 +1,129 @@
 \section{Introducción}
 \label{ch:introduccion}
 
-La introducción es la primera sección sustantiva de la tesis y tiene como propósito principal guiar al lector a través del contexto y la relevancia del estudio. En ella, se presenta el problema de investigación, se establecen los objetivos, se justifica la realización del trabajo y se delinean los alcances y limitaciones. Debe ser escrita de forma clara y concisa, capturando el interés del lector y proporcionando una visión general de lo que se abordará en los capítulos subsiguientes.
+Actualmente las instituciones gubernamentales suelen utilizar sistemas que pueden resultar ser algo anticuados ya que la mayoría fueron desarrollados hace años y continúan usando tecnologías de esa época; a simple vista, estos pueden parecer funcionales pero varios de estos pueden presentar problemas como problemas de mantenimiento, algunas limitaciones técnicas como incompatibilidad con sistemas operativos modernos y riesgos en la seguridad de los datos. 
 
+Es necesario modernizar estos sistemas antiguos ya que mientras más pase el tiempo más cambian las necesidades y más cambian las tecnologías modernas, lo que dificulta la adopción de nuevas funciones que la empresa necesite para escalar o mejorar la atención al personal.
+
+Tal es el caso del sistema para la gestión y actualización de datos del personal del Poder Judicial del Estado de Tamaulipas, el cual fue desarrollado hace más de 15 años, y su interfaz y funcionamiento lo demuestran. La seguridad y eficiencia en el manejo de los datos del personal garantiza la capacidad para poder mantener sus servicios funcionando y también la protección de los datos sensibles lo que ayuda a que también haya un clima de confianza entre los trabajadores y el manejo de sus datos, además de disminuir las equivocaciones asociadas a la manipulación de estos datos.
+
+En este proyecto se busca implementar un sistema siguiendo las bases del que está ya en funcionamiento pero integrando un tipo de acceso centralizado y que pueda tener un mantenimiento sencillo a largo plazo con ayuda de desarrollo web moderno e integración de APIs, para así lograr una mejora en los procesos administrativos que realizan en el Poder Judicial del Estado de Tamaulipas.
 \subsection{Antecedentes}
 \label{sec:antecedentes}
 
-En esta sección, se presenta una revisión concisa y pertinente de investigaciones previas, literatura existente y el estado del arte relacionado con el tema de la tesis. El objetivo es situar el trabajo actual dentro del conocimiento acumulado, identificar vacíos en la investigación y demostrar la originalidad y la necesidad del estudio propuesto. Se deben citar adecuadamente las fuentes, mostrando cómo el trabajo se construye sobre cimientos previos o cómo aborda aspectos no resueltos.
+\subsubsection{Antecedentes de la empresa}
+\label{sec:antecedentes_empresa}
+
+\paragraph{Información general del PJETAM} ~\\
+\label{sec:informacion}El Poder Judicial del Estado de Tamaulipas es una institución pública encargada de impartir y administrar justicia en el estado de Tamaulipas. Su objetivo principal es resolver conflictos entre particulares y autoridades, garantizando el Estado de derecho, la protección de los derechos humanos y la paz social.\cite{PJETAM:ReglamentoTribunalElectronico2022}
+
+Entre las principales funciones institucionales que este realiza se encuentran resolver conflictos entre los ciudadanos, entre empresas, o entre los particulares y el Estado, basándose en la legislación vigente. De igual forma, asegurar que ninguna ley, norma o acto de autoridad vulnere lo establecido en la Constitución y servir de salvaguarda ante violaciones a los derechos humanos y libertades individuales. Además de actuar como un contrapeso democrático para limitar el poder del Ejecutivo y del Legislativo, asegurando que sus actos se mantengan dentro del marco.\cite{PJETAM:ReglamentoTribunalElectronico2022}
+
+\paragraph{Misión} ~\\
+\label{sec:mision}Impartir y administrar justicia de manera eficiente y expedita, solucionando conflictos a través de los órganos jurisdiccionales y los medios alternos, contribuyendo a garantizar el estado de derecho y la paz social en Tamaulipas.\cite{PJETAM:MisionVision}
+
+\paragraph{Visión} ~\\
+\label{sec:vision}Transcender como Institución de excelencia, mediante la profesionalización e institucionalización de sus integrantes, en un ambiente de humanismo y justicia institucional, haciendo uso de la innovación tecnológica y optimización de los recursos, con responsabilidad social y pleno respeto a la ley, los derechos humanos y la igualdad de género.\cite{PJETAM:MisionVision}
+
+\paragraph{Tribunal Electrónico para el manejo de datos del personal} ~\\
+\label{sec:sistemas_informacion}El Poder Judicial del Estado de Tamaulipas mantiene una necesidad constante de modernizar y ampliar sus sistemas informáticos para agilizar trámites y garantizar la transparencia; esto se refiere a que es primordial tener infraestructura, software especializado y herramientas de ciberseguridad de alta calidad para el desarrollo de sus sistema informáticos. Para hacer frente a estas necesidades, la institución se apoya en el Tribunal Electrónico, un ecosistema digital que requiere soporte y desarrollo tecnológico continuo.\cite{PJETAM:ReglamentoTribunalElectronico2022}
+
+Dentro del ecosistema del Tribunal Electrónico se encuentra el sistema para la gestión y actualización de datos del personal, el cual fue desarrollado aproximadamente hace 15 años utilizando tecnologías como el framework ASP.NET Web Forms y el lenguaje de programación Visual Basic, bajo una arquitectura en capas, separando  el diseño visual de la lógica del sistema. 
+Aunque dicho sistema permitió durante varios años llevar a cabo procesos administrativos relacionados con la información del personal, con el paso del tiempo comenzaron a presentarse diversas limitaciones derivadas de la antigüedad de las tecnologías empleadas. 
+
+Entre estas limitaciones destacan las dificultades de mantenimiento, la complejidad para implementar nuevas funcionalidades, problemas de compatibilidad con herramientas modernas y restricciones en aspectos relacionados con la seguridad y escalabilidad. Esta situación evidenció la necesidad de modernizar el sistema mediante una solución web basada en tecnologías actuales que permitieran mejorar la eficiencia operativa, la experiencia de usuario y la integración con otros servicios institucionales.
+\subsubsection{Antecedentes teóricos}
+\label{sec:antecedentes_teoricos}
+
+\paragraph{Sistemas Heredados (Legacy Systems) en Administración Pública} ~\\
+\label{sec:legacy_systems}El avance continuo de las tecnologías de la información provoca que sistemas informáticos que han sido utilizados por años se conviertan en sistemas heredados o legacy systems, los cuales, a pesar de presentar limitaciones técnicas u operativas, siguen vigentes porque estos tienen un alto valor y tienen datos que ya son vitales para la organización. En las organizaciones públicas, la eliminación o sustitución inmediata de estas plataformas es una tarea sumamente compleja debido al riesgo latente de interrumpir las actividades administrativas diarias y afectar directamente la continuidad de la entrega de servicios institucionales.
+
+Con el paso de los años, mantener estos sistemas antiguos eleva considerablemente los costos de soporte técnico y aumenta la dificultad de mantenimiento debido a la escasez de expertos en herramientas obsoletas junto con una documentación de referencia que suele ser insuficiente. De acuerdo con Mandviwalla et al. (2026)\cite{mandviwalla2025modernizing}, los sistemas heredados centrales personalizados terminan atrapando las prácticas críticas de la organización y su información en un entorno técnico moribundo y rígido. Esto no solo incrementa la vulnerabilidad ante ciberataques o caídas operativas, sino que convierte al software en una "trampa de valor" que frena la innovación interna, bloquea la agilidad institucional y dificulta la consolidación limpia de los datos.
+
+\paragraph{Limitaciones Técnicas de ASP.NET Web Forms} ~\\
+\label{sec:limitaciones_aspnet}Un ejemplo de esta problemática de obsolescencia se presenta en las aplicaciones web desarrolladas bajo el entorno de ASP.NET Web Forms. Según Herceg (2024)\cite{herceg2024modernizing}, esta tecnología de generaciones previas basaba su arquitectura en componentes de servidor y en un estado persistente oculto denominado View State, el cual provocaba transferencias de datos pesadas y complejas (postbacks) hacia el servidor ante cualquier interacción del usuario. Este flujo no solo generaba problemas de parpadeo y lentitud en las interfaces disminuyendo la usabilidad, sino que introducía un fuerte acoplamiento con los componentes del sistema operativo Windows y el servidor de aplicaciones IIS (Internet Information Services).
+
+Microsoft determinó omitir por completo el soporte para la tecnología Web Forms en las nuevas generaciones de .NET Core y .NET moderno, enfocándose exclusivamente en el desarrollo de plataformas más ligeras y eficientes. Herceg (2024)\cite{herceg2024modernizing} subraya que, debido a que no existe un marco equivalente directo en las versiones actuales, la migración de un sistema basado en Web Forms implica obligatoriamente una reingeniería profunda y la reescritura total de las páginas y elementos de la interfaz de usuario utilizando nuevas tecnologías de presentación.
+
+\paragraph{Impacto de la Arquitectura Modelo-Vista-Controlador (MVC)} ~\\
+\label{sec:impacto_mvc}Para evitar el código extenso, rígido y difícil de mantener en un proyecto, la ingeniería de software implementa ciertos patrones de diseño que nos ayudan al desarrollo de nuestros proyectos. Entre estas estructuras, se encuentra el patrón Modelo-Vista-Controlador (MVC) destaca por proponer una división modular de la aplicación en tres componentes: el modelo, encargado de la gestión y acceso a la base de datos; la vista, que es la presentación visual de la información al usuario; y el controlador, que procesa las solicitudes y dirige el flujo de la aplicación.
+
+La utilización de este enfoque aporta ventajas significativas durante todo el ciclo de vida del sistema. Enríquez et al. (2023)\cite{enriquez2023impacto} demuestran mediante su investigación que el patrón MVC tiene un impacto positivo sobre la seguridad, la interoperabilidad y la usabilidad de las soluciones tecnológicas corporativas. Al separar la lógica de presentación de la lógica de negocio, el patrón MVC permite a los desarrolladores lograr una mayor escalabilidad, facilitar la reutilización de componentes de software y reducir la complejidad en la realización de pruebas funcionales frente a otro tipo de patrones.
+
+\paragraph{Tabla Comparativa de Tecnologías} ~\\
+\label{sec:tablacomparativa}Como se puede observar en la Tabla \ref{tab:tabla_tecnologias}, se contrastan las deficiencias tecnológicas de la plataforma actual frente a las ventajas de la propuesta de rediseño, fundamentando la necesidad de realizar la modernización en el presente.
+
+\begin{table}[H]
+    \centering
+    \caption{Tabla Comparativa de Tecnologías y Justificación de Modernización.}
+    \label{tab:tabla_tecnologias}
+    \small
+    \begin{longtable}{|p{2.8cm}|p{4.2cm}|p{4.2cm}|p{5.3cm}|}
+        \hline
+        \textbf{Criterio de comparación} & \textbf{ASP.NET Web Forms (Sistema Heredado)} & \textbf{Arquitectura MVC en .NET Moderno (Propuesta)} & \textbf{Motivo de la Modernización Actual (Justificación)} \\
+        \hline
+        Arquitectura de Software & Estructura basada en componentes de servidor rígidos y un estado persistente (View State). & Separación en tres capas independientes con responsabilidades distintas, que son: Modelo, Vista y Controlador. & Web Forms es una tecnología obsoleta que carece por completo de soporte o alternativas en las versiones actuales de .NET.\\ \hline
+        Mantenibilidad y Código & Propensión a mezclar la lógica de negocio dentro del código visual. & Alta modularidad que promueve el aislamiento de las reglas del negocio, facilitando la reutilización y evolución del código. & Reducir la alta deuda técnica acumulada por más de 15 años, disminuir los costosos gastos de soporte y agilizar la integración de nuevas funciones operativas. \\ \hline
+        Dependencia Tecnológica & Dependencia con componentes específicos de Windows y el servidor de aplicaciones IIS. & Diseñado de forma ligera para trabajar en entornos distribuidos o contenedores en la nube. & El entorno moderno exige agilidad multiplataforma y la capacidad técnica de responder velozmente a demandas globales de la institución. \\ \hline
+        Seguridad & Uso de Membership Providers desactualizados cuyos antiguos algoritmos de cifrado ya no son seguros hoy en día. & Gestión avanzada de identidades e integración segura mediante APIs modernas y controles basados en roles. & Salvaguardar de manera estricta la información sensible del personal y mitigar riesgos cibernéticos. \\
+        \hline
+    \end{longtable}
+\end{table}
 
 \subsection{Definición del Problema}
 \label{sec:problema}
 
-Aquí se describe de manera clara y precisa el problema que la tesis busca resolver. Es fundamental articular el problema de forma que sea comprensible, relevante y factible de investigar. Esta sección debe responder a preguntas como: ¿Qué situación actual es insatisfactoria o genera una necesidad? ¿Qué aspectos de este problema no han sido abordados adecuadamente por investigaciones anteriores? La definición del problema puede ser formulada como una pregunta de investigación o una declaración clara de la brecha de conocimiento.
+Actualmente, el Poder Judicial del Estado de Tamaulipas cuenta con un sistema para la gestión y actualización de datos del personal desarrollado hace más de 15 años. Debido al tiempo transcurrido desde su implementación, dicho sistema presenta diversas limitaciones tecnológicas que afectan su funcionamiento, mantenimiento y capacidad de adaptación a las necesidades actuales de la institución.
 
+Entre las principales problemáticas identificadas se encuentran el uso de tecnologías obsoletas como el framework ASP.NET Web Forms, dificultades para realizar mantenimiento o implementar nuevas funcionalidades, limitaciones en la seguridad de la información y una experiencia de usuario poco eficiente. Asimismo, el sistema actual no cuenta con mecanismos modernos de integración con otros servicios institucionales, lo que dificulta la centralización y optimización de procesos relacionados con el personal.
+
+Ante esta situación, surge la necesidad de desarrollar un nuevo sistema web que permita modernizar el proceso de actualización de datos del personal mediante el uso de tecnologías actuales, mecanismos de seguridad más robustos e integración con otros sistemas institucionales. De esta manera, se busca mejorar la eficiencia operativa, facilitar el mantenimiento futuro del sistema y brindar una herramienta más segura, escalable y funcional para sus usuarios.
 \subsection{Objetivos}
 \label{sec:objetivos}
-
-Los objetivos son las metas que se esperan alcanzar con la realización de la investigación. Deben ser claros, medibles, alcanzables, relevantes y con un tiempo definido (SMART, por sus siglas en inglés). Se dividen en un objetivo general y varios objetivos específicos.
 
 \subsubsection{Objetivo General}
 \label{subsec:objetivo_general}
 
-El objetivo general expresa el propósito fundamental del estudio en términos amplios. Es la meta principal que se busca lograr y generalmente abarca la totalidad de la investigación. Debe ser coherente con la definición del problema.
 \begin{itemize}
-    \item \textbf{Ejemplo:} Desarrollar un sistema automatizado para la detección temprana de fallas en turbinas eólicas utilizando técnicas de aprendizaje automático.
+    \item \textbf{} Desarrollar un sistema web con tecnologías modernas que optimice y modernice el proceso de actualización de datos del personal del Poder Judicial del Estado de Tamaulipas, sustituyendo el sistema actual (desarrollado hace más de 15 años) por una solución más segura, eficiente y de fácil mantenimiento.
 \end{itemize}
 
 \subsubsection{Objetivos Específicos}
 \label{subsec:objetivos_especificos}
 
-Los objetivos específicos detallan los pasos o las acciones concretas que se llevarán a cabo para alcanzar el objetivo general. Son tareas más pequeñas y desglosadas que, al ser cumplidas, permiten la consecución del objetivo principal.
 \begin{itemize}
-    \item \textbf{Ejemplo 1:} Recopilar y preprocesar un conjunto de datos de vibraciones y parámetros operativos de turbinas eólicas.
-    \item \textbf{Ejemplo 2:} Implementar y evaluar diferentes algoritmos de aprendizaje automático para la clasificación de estados operativos (normal, pre-falla, falla).
-    \item \textbf{Ejemplo 3:} Diseñar una interfaz de usuario para la visualización de alertas y el monitoreo en tiempo real del estado de las turbinas.
+    \item \textbf{Objetivo 1:} Analizar y documentar los requerimientos funcionales y no funcionales del sistema actual, identificando sus limitaciones técnicas y las necesidades actuales de los usuarios.
+    \item \textbf{Objetivo 2:} Diseñar la arquitectura del nuevo sistema web, seleccionando tecnologías modernas de desarrollo frontend y backend que garanticen escalabilidad y seguridad.
+    \item \textbf{Objetivo 3:} Modelar y estructurar la base de datos para el almacenamiento eficiente de la información del personal, asegurando la integridad y consistencia de los datos.
+    \item \textbf{Objetivo 4:} Desarrollar los módulos del sistema que permitan el registro, consulta, modificación y validación de los datos de los empleados mediante una interfaz web intuitiva y responsiva.
+    \item \textbf{Objetivo 5:} ntegrar el módulo de autenticación del nuevo sistema con el sistema de consulta de comprobantes de nómina del PJETAM, mediante una API, permitiendo que los empleados accedan a ambos sistemas con un único inicio de sesión.
+    \item \textbf{Objetivo 6:} Implementar mecanismos de control de acceso basados en roles, garantizando que solo el personal autorizado pueda visualizar o modificar la información según su perfil.
+    \item \textbf{Objetivo 7:} Realizar pruebas funcionales y de usabilidad del sistema para verificar el correcto funcionamiento de los módulos desarrollados y corregir errores antes de su puesta en marcha.
+    \item \textbf{Objetivo 8:} Elaborar la documentación técnica y los manuales de usuario necesarios para la operación, mantenimiento y futura evolución del sistema.
 \end{itemize}
 
 \subsection{Justificación}
 \label{sec:justificacion}
 
-La justificación explica por qué es importante y relevante llevar a cabo la investigación. Se deben argumentar los beneficios y la utilidad del estudio desde diferentes perspectivas: teórica, práctica, social, económica, tecnológica, etc. Responde a la pregunta: ¿Por qué vale la pena invertir tiempo y recursos en esta investigación? Aquí se resaltan los aportes que la tesis generará al campo del conocimiento o a la solución de problemas específicos.
+La modernización de los sistemas informáticos representa una necesidad importante para las instituciones que buscan optimizar sus procesos administrativos y garantizar la seguridad de la información que manejan. En el caso del Poder Judicial del Estado de Tamaulipas, el sistema actual de actualización de datos del personal presenta limitaciones derivadas de su antigüedad tecnológica, lo cual dificulta su mantenimiento, evolución y adaptación a las necesidades actuales.
 
+El desarrollo de un nuevo sistema web permitirá mejorar significativamente la gestión de la información del personal mediante una plataforma más eficiente, segura y fácil de utilizar. Además, la implementación de tecnologías modernas contribuirá a facilitar futuras actualizaciones y ampliaciones del sistema, reduciendo problemas asociados con sistemas heredados o desactualizados.
+
+Este proyecto busca aportar una solución tecnológica que beneficie tanto al personal administrativo encargado de la gestión de información como a los empleados que harán uso del sistema, promoviendo procesos más ágiles, seguros y eficientes dentro de la institución.
 \subsection{Alcances y Limitaciones}
 \label{sec:alcances_limitaciones}
 
 \subsubsection{Alcances}
 \label{subsec:alcances}
 
-Los alcances definen claramente hasta dónde llegará el estudio, qué aspectos cubrirá y cuáles serán sus fronteras. Establecen qué elementos, variables, poblaciones o contextos serán incluidos en la investigación. Es esencial para evitar expectativas irrealistas y para mantener el enfoque del trabajo.
+El presente proyecto contempla el desarrollo de un sistema web para la gestión y actualización de datos del personal del Poder Judicial del Estado de Tamaulipas, el cual permitirá modernizar el sistema actual mediante el uso de tecnologías modernas de desarrollo.
+
+El sistema incluirá funcionalidades para el registro, consulta, actualización y validación de información del personal mediante una interfaz web intuitiva y responsiva. Asimismo, contará con mecanismos de autenticación y control de acceso basados en roles, permitiendo restringir el acceso a determinadas funciones según el perfil del usuario.
 
 \subsubsection{Limitaciones}
 \label{subsec:limitaciones}
 
-Las limitaciones son los factores externos o internos que podrían restringir la validez, generalización o profundidad de los resultados de la investigación. Es importante identificarlas honestamente, ya que demuestran un pensamiento crítico por parte del investigador. Pueden incluir restricciones de tiempo, recursos, acceso a datos, metodológicas, etc.
+El proyecto estará enfocado exclusivamente en una plataforma web, por lo que no se desarrollará una aplicación móvil nativa. Además, el funcionamiento del sistema dependerá de la disponibilidad de conexión a internet y de la infraestructura tecnológica proporcionada por la institución.
 
-\subsection{Ejemplos de Tablas e Inclusión de Imágenes}
-\label{sec:ejemplos_elementos}
+Otra limitación corresponde al tiempo disponible, que consta de 4 meses, para el desarrollo e implementación del proyecto, lo cual puede restringir la incorporación de funcionalidades adicionales o mejoras futuras no consideradas en el alcance inicial.
 
-Para ilustrar el uso de elementos visuales en su tesis, a continuación se presentan ejemplos básicos de cómo incluir tablas e imágenes en LaTeX.
-
-\subsubsection{Inclusión de Tablas}
-
-Las tablas son herramientas fundamentales para presentar datos de manera organizada y comprensible.
-\begin{table}[H]
-    \centering
-    \caption{Clasificación de Sensores Comunes en Ingeniería.}
-    \label{tab:sensores_comunes}
-    \begin{tabular}{|l|c|c|}
-        \hline
-        \textbf{Tipo de Sensor} & \textbf{Magnitud Medida} & \textbf{Principio de Funcionamiento} \\
-        \hline
-        Termopar & Temperatura & Efecto Seebeck \\
-        Extensómetro & Deformación & Resistencia eléctrica \\
-        Acelerómetro & Aceleración & Efecto piezoeléctrico \\
-        Encoder rotatorio & Posición angular & Óptico/Magnético \\
-        \hline
-    \end{tabular}
-    \caption*{Nota: Esta tabla es un ejemplo para demostrar la estructura básica de una tabla en LaTeX.}
-\end{table}
-Como se puede observar en la Tabla \ref{tab:sensores_comunes}, la información se presenta de forma clara y estructurada. Es importante añadir un \verb|`\caption`|  para describir la tabla y un  \verb|`\label`|  para referenciarla en el texto.
-
-\subsubsection{Inclusión de Imágenes}
-
-Las imágenes, gráficos o diagramas son cruciales para complementar la explicación textual y facilitar la comprensión de conceptos complejos o resultados visuales.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{img/diagrama_proceso}
-    \caption{Diagrama de un proceso de control automático.}
-    \label{fig:diagrama_control}
-\end{figure}
-% La Figura \ref{fig:diagrama_control} ilustra un ejemplo de un diagrama de un proceso de control. Para incluir una imagen, se utiliza el entorno `figure` y el comando `\includegraphics`. Es fundamental especificar la ruta de la imagen (en este caso, `images/diagrama_proceso.png`) y un `width` para controlar su tamaño. Al igual que con las tablas, un `\caption` y un `\label` son indispensables. Es crucial que cada imagen tenga una calidad adecuada y que sea relevante para el texto.
-
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-        \includegraphics[width=\textwidth]{img/grafico_datos1}
-        \caption{Datos de Temperatura.}
-        \label{fig:subfig_temp}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.45\textwidth}
-        \includegraphics[width=\textwidth]{img/grafico_datos2}
-        \caption{Datos de Presión.}
-        \label{fig:subfig_pres}
-    \end{subfigure}
-    \caption{Comparación de datos operativos de un sistema (Temperatura vs. Presión).}
-    \label{fig:comparacion_datos}
-\end{figure}
-Incluso es posible combinar varias imágenes en una sola figura, como se muestra en la Figura \ref{fig:comparacion_datos}, utilizando el paquete `subcaption`.
-
-Asegúrense de que todas las figuras y tablas estén debidamente referenciadas en el texto y que su contenido sea autoexplicativo, utilizando los pies de figura y títulos de tabla de manera efectiva.
