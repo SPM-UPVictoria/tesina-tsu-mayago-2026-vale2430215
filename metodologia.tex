@@ -3,3 +3,23 @@
 
 \subsection{Propuesta de Solución}
 \label{sec:propuesta_solucion}
+La solución propuesta consiste en el diseño, desarrollo e implementación del Sistema Web de Gestión y Actualización de Datos del Personal del PJETAM, una plataforma web moderna construida sobre el ecosistema de ASP.NET Core que sustituirá por completo al sistema heredado de más de 15 años de antigüedad. El sistema actual, desarrollado originalmente en Visual Basic y ASP.NET Web Forms, ha alcanzado el final de su ciclo de vida útil, presentando una severa acumulación de deuda técnica, lentitud extrema debido al procesamiento pesado del estado de las páginas (ViewState), vulnerabilidades críticas en la seguridad de las cuentas y una rigidez estructural que impide agregar nuevas funciones indispensables.
+
+\subsubsection{Beneficios}
+\label{sec:beneficios}
+
+\begin{itemize}
+    \item \textbf{Disminución de deuda técnica y mantenibilidad:} Se reemplaza el código monolítico y acoplado del sistema anterior por una estructura limpia basada en la separación de responsabilidades. Esto permitirá que la dirección de informática del Poder Judicial realice modificaciones, correcciones o añada nuevos módulos en el futuro de forma rápida y aislada, sin riesgo de romper otras partes del software.
+    \item \textbf{Optimización del rendimiento:} Al eliminar los pesados mecanismos de persistencia en el cliente (ViewState) y los flujos circulares (postbacks) propios de Web Forms, la nueva aplicación web procesará las solicitudes de manera ligera y asíncrona. Esto reducirá drásticamente la carga sobre el servidor del PJETAM y el ancho de banda de la red institucional, garantizando tiempos de respuesta casi inmediatos para los empleados.
+    \item \textbf{Fortalecimiento de la seguridad:} La propuesta incluye un esquema de seguridad que remueve los obsoletos proveedores de autenticación del sistema anterior. Se implementará un mecanismo de control de acceso basado en roles (RBAC) y cifrado avanzado de contraseñas para proteger de forma estricta los datos sensibles del personal judicial, asegurando que cada usuario visualice o modifique información exclusivamente de acuerdo con su perfil autorizado.
+\end{itemize}
+
+\subsubsection{Recursos Técnicos y de Software}
+\label{sec:recursos_tecnicos}
+
+\begin{itemize}
+    \item \textbf{Entorno de Desarrollo (IDE):} Microsoft Visual Studio (Edición Enterprise / Community) como plataforma central de codificación.
+    \item \textbf{Framework de Desarrollo:} .NET moderno (ASP.NET Core) configurado bajo el patrón MVC.
+    \item \textbf{Sistema de Gestión de Base de Datos:} Microsoft SQL Server para la persistencia e integración del repositorio de datos existente. 
+    \item \textbf{Herramientas de Mapeo y Migración:} Entity Framework Core integrado mediante la consola de administración de paquetes NuGet.
+\end{itemize}

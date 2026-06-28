@@ -38,7 +38,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.pjetam.gob.mx}}
+      \field{howpublished}{\url{https://www.tribunalelectronico.gob.mx/TE/documentos/REGLAMENTO_PARA_EL_ACCESO_A_LOS_SERVICIOS_DEL_TRIBUNAL_ELECTRONICO_DEL_PODER_JUDICIAL_DEL_ESTADO_DE_TAMAULIPAS.pdf}}
       \field{note}{Documento oficial consultado el 28 de mayo de 2026}
       \field{title}{Reglamento para el Acceso a los Servicios del Tribunal Electrónico del Poder Judicial del Estado de Tamaulipas}
       \field{year}{2022}
@@ -252,6 +252,12 @@
       \field{labeltitlesource}{title}
       \field{title}{Diseño y desarrollo de una infraestructura web en. Net para empresa mediana o pequeña}
       \field{year}{2022}
+      \verb{urlraw}
+      \verb https://oa.upm.es/69931/1/TFG_YIDONG_ZHU.pdf
+      \endverb
+      \verb{url}
+      \verb https://oa.upm.es/69931/1/TFG_YIDONG_ZHU.pdf
+      \endverb
     \endentry
     \entry{MontesBaez2024Serverbox}{article}{}{}
       \name{author}{2}{}{%
