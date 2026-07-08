@@ -34,11 +34,11 @@
 \contentsline {subsubsection}{\numberline {2.4.1}Control de Acceso Basado en Roles (RBAC)}{14}{subsubsection.2.4.1}%
 \contentsline {subsubsection}{\numberline {2.4.2}Integración de Sistemas mediante APIs}{15}{subsubsection.2.4.2}%
 \contentsline {subsubsection}{\numberline {2.4.3}Persistencia y Mapeo de Datos}{16}{subsubsection.2.4.3}%
-\contentsline {section}{\numberline {3}Metodología}{17}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Propuesta de Solución}{17}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Beneficios}{17}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Recursos Técnicos y de Software}{18}{subsubsection.3.1.2}%
-\contentsline {section}{\numberline {4}Resultados}{19}{section.4}%
-\contentsline {section}{\numberline {5}Conclusiones}{20}{section.5}%
-\contentsline {section}{Bibliografía}{21}{section.5}%
-\contentsline {section}{Anexos}{23}{section.5}%
+\contentsline {section}{\numberline {3}Metodología}{18}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Propuesta de Solución}{18}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Beneficios}{18}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Recursos Técnicos y de Software}{19}{subsubsection.3.1.2}%
+\contentsline {section}{\numberline {4}Resultados}{20}{section.4}%
+\contentsline {section}{\numberline {5}Conclusiones}{21}{section.5}%
+\contentsline {section}{Bibliografía}{22}{section.5}%
+\contentsline {section}{Anexos}{24}{section.5}%

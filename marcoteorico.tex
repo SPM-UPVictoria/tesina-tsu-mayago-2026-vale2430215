@@ -78,15 +78,14 @@ La transición hacia entornos modernos basados en internet y computación en la 
 \subsubsection{Control de Acceso Basado en Roles (RBAC)}
 \label{sec:rbac}
 Para evitar violaciones de seguridad y garantizar que solo las personas autorizadas interactúen con la información, es fundamental implementar políticas de control de acceso bien estructuradas. En este ámbito, los mecanismos de autenticación y autorización desempeñan un papel crucial. De acuerdo con Lezcano Gil, Olivarez Geronimo y Mendoza de los Santos (2023), el control de acceso y la autenticación multifactorial constituyen medidas fundamentales para la protección de la información en la nube, mientras que modelos como el control de acceso basado en roles (RBAC) representan alternativas ampliamente utilizadas para restringir el acceso a los recursos únicamente a los usuarios autorizados.\cite{LezcanoGil2023SeguridadNube}
-
-El control de acceso basado en roles permite asignar permisos específicos a los usuarios de acuerdo con su función dentro de la institución. En este sentido, Villanueva Guzmán et al. (2025) muestran que es posible establecer restricciones para que únicamente los administradores puedan modificar información crítica, como los productos del sistema, mientras que los usuarios estándar cuentan con permisos limitados de consulta, garantizando así la protección de los recursos sensibles.\cite{VillanuevaGuzman2025RestfulAPIs} Asimismo, Herceg (2024) señala que los antiguos proveedores de Membership y Roles de ASP.NET deben migrarse hacia ASP.NET Core Identity durante los procesos de modernización, ya que esta biblioteca emplea un formato distinto para el almacenamiento de contraseñas cifradas y proporciona mecanismos seguros para realizar la transición de las cuentas de usuario existentes.\cite{herceg2024modernizing}
-
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.8\textwidth]{img/rbac.png}
     \caption{Representación del control de acceso basado en roles (RBAC).}
     \label{fig:rbac_img}
 \end{figure}
+
+El control de acceso basado en roles permite asignar permisos específicos a los usuarios de acuerdo con su función dentro de la institución. En este sentido, Villanueva Guzmán et al. (2025) muestran que es posible establecer restricciones para que únicamente los administradores puedan modificar información crítica, como los productos del sistema, mientras que los usuarios estándar cuentan con permisos limitados de consulta, garantizando así la protección de los recursos sensibles.\cite{VillanuevaGuzman2025RestfulAPIs} Asimismo, Herceg (2024) señala que los antiguos proveedores de Membership y Roles de ASP.NET deben migrarse hacia ASP.NET Core Identity durante los procesos de modernización, ya que esta biblioteca emplea un formato distinto para el almacenamiento de contraseñas cifradas y proporciona mecanismos seguros para realizar la transición de las cuentas de usuario existentes.\cite{herceg2024modernizing}
 
 \subsubsection{Integración de Sistemas mediante APIs}
 \label{sec:integracion_sistemas}
@@ -96,5 +95,12 @@ A nivel arquitectónico, las APIs basadas en el estilo REST proponen una comunic
 \subsubsection{Persistencia y Mapeo de Datos}
 \label{sec:persistencia_mapeo}
 El almacenamiento, procesamiento y la persistencia de la información en bases de datos relacionales constituyen el núcleo de las soluciones empresariales. Históricamente, las aplicaciones antiguas dependían de primitivas clásicas de acceso a datos (como ADO.NET), lo que obligaba a los programadores a escribir consultas manuales extensas y lidiar con la gestión directa de las conexiones. Con la evolución técnica, cobraron una enorme relevancia los mapeadores objeto-relacional o herramientas ORM (Object-Relational Mapping), las cuales actúan como un traductor entre el modelo de objetos del código y el esquema de tablas de la base de datos relacional. 
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/orm.png}
+    \caption{Representación de la relación entre código y base de datos.}
+    \label{fig:orm_img}
+\end{figure}
 
 En el ecosistema Microsoft, Entity Framework constituye uno de los ORM más utilizados para el acceso a datos y fue completamente rediseñado en las versiones modernas de la plataforma bajo el nombre de Entity Framework Core. Herceg (2024) explica que esta nueva implementación prioriza el rendimiento y una API más expresiva para definir y configurar el modelo de datos mediante código, incorporando enfoques inspirados en el diseño orientado al dominio y adaptándose mejor a arquitecturas modernas basadas en microservicios y entornos en la nube.\cite{herceg2024modernizing}
