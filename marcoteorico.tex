@@ -6,7 +6,7 @@
 Actualmente, la tecnología avanza tan rápido que las organizaciones e instituciones no se pueden quedar atrás. Por lo tanto, actualizar los sistemas de software se ha vuelto una de las tareas más importantes para los directores y encargados de la tecnología en las empresas. El "modernizar un sistema", no se refiere a hacer un cambio de la noche a la mañana, sino a un proceso continuo de mejora para que el software no pierda su valor. Según explican los investigadores Abu Bakar, Razali y Jambari (2020), modernizar consiste en renovar esas aplicaciones viejas utilizando tecnologías actuales o estructuras más modernas. El objetivo de esto es que el sistema pueda reaccionar rápido a los cambios que necesita la organización, funcione mejor y sea mucho más seguro.\cite{AbuBakar2020LegacyModernization}
 \subsubsection{Sistemas Heredados (Legacy Systems)}
 \label{sec:sistemas_heredados}
-Un concepto clave en esta área son los llamados "sistemas heredados" o legacy systems. Básicamente, son sistemas de información viejos que todavía se usan porque son el motor principal de las operaciones diarias de una empresa, pero que ya se quedaron atrasados respecto a las tecnologías y estándares actuales. De acuerdo con Abu Bakar, Razali y Jambari (2020), estos sistemas utilizan lenguajes de programación y herramientas de generaciones pasadas.\cite{AbuBakar2020LegacyModernization} Aunque suelen dar problemas técnicos o fallas constantes, las organizaciones no los pueden dejar de usar tan fácilmente porque tienen un valor muy alto. Esto pasa porque el sistema viejo guarda las reglas del negocio, los datos históricos de muchos años y la costumbre de los usuarios que ya se la saben de memoria; apagar el sistema de golpe afectaría por completo el trabajo de todos los días.
+Un concepto clave en esta área son los llamados "sistemas heredados" o legacy systems. Básicamente, son sistemas de información viejos que todavía se usan porque son el motor principal de las operaciones diarias de una empresa, pero que ya se quedaron atrasados respecto a las tecnologías y estándares actuales. De acuerdo con Abu Bakar, Razali y Jambari (2020), estos sistemas utilizan lenguajes de programación y herramientas de generaciones pasadas.\cite{AbuBakar2020LegacyModernization} Aunque suelen dar problemas técnicos o fallas constantes, las organizaciones no los pueden dejar de usar tan fácilmente porque tienen un valor muy alto. Esto pasa porque el sistema viejo guarda las reglas del negocio, los datos históricos de muchos años y la costumbre de los usuarios que ya se la saben de memoria; apagar el sistema de golpe afectaría por completo el trabajo de todos los días. Esto se muestra en la Figura \ref{fig:legacy_img}, donde se pueden ver los componentes que forman parte de un sistema heredado típico, incluyendo el software y reglas de negocio.
 
 \begin{figure}[htbp]
     \centering
@@ -25,7 +25,7 @@ El desarrollo de aplicaciones web con Microsoft ha pasado por una gran transform
 
 \subsubsection{La Era de ASP.NET Web Forms}
 \label{sec:aspnet_webforms}
-Lanzado a principios de la década de los 2000, ASP.NET Web Forms fue fundamental durante muchos años para la creación de sistemas empresariales y gubernamentales a gran escala. Según Zhu (2022), ASP.NET permite acelerar el desarrollo web mediante controles y funcionalidades integradas que posibilitan mostrar bases de datos y realizar tareas complejas con pocas líneas de código. Asimismo, Visual Studio incorpora herramientas visuales que facilitan la creación de interfaces mediante el arrastre y colocación de componentes.\cite{zhu2022diseno}
+Lanzado a principios de la década de los 2000, ASP.NET Web Forms fue fundamental durante muchos años para la creación de sistemas empresariales y gubernamentales a gran escala. Según Zhu (2022), ASP.NET permite acelerar el desarrollo web mediante controles y funcionalidades integradas que posibilitan mostrar bases de datos y realizar tareas complejas con pocas líneas de código. Asimismo, Visual Studio incorpora herramientas visuales que facilitan la creación de interfaces mediante el arrastre y colocación de componentes.\cite{zhu2022diseno} En la Figura \ref{fig:webforms_img} se puede observar un ejemplo de una aplicación desarrollada con ASP.NET Web Forms, mostrando la interfaz de usuario y algunos de los controles disponibles para interactuar con la información.
 
 \begin{figure}[htbp]
     \centering
@@ -61,6 +61,8 @@ Los componentes son:\cite{enriquez2023impacto}
     \item \textbf{Controlador:} Su función es comunicar al modelo con la vista, solicita los datos necesarios al modelo, los procesa y se los entrega a la vista para que los muestre.
 \end{itemize}
 
+En la Figura \ref{fig:mvc_img} se puede observar un esquema que representa la interacción entre los tres componentes del patrón MVC, mostrando cómo el controlador actúa como intermediario entre el modelo y la vista, facilitando la separación de responsabilidades y promoviendo un diseño más limpio y mantenible.
+
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.8\textwidth]{img/mvc.png}
@@ -78,6 +80,8 @@ La transición hacia entornos modernos basados en internet y computación en la 
 \subsubsection{Control de Acceso Basado en Roles (RBAC)}
 \label{sec:rbac}
 Para evitar violaciones de seguridad y garantizar que solo las personas autorizadas interactúen con la información, es fundamental implementar políticas de control de acceso bien estructuradas. En este ámbito, los mecanismos de autenticación y autorización desempeñan un papel crucial. De acuerdo con Lezcano Gil, Olivarez Geronimo y Mendoza de los Santos (2023), el control de acceso y la autenticación multifactorial constituyen medidas fundamentales para la protección de la información en la nube, mientras que modelos como el control de acceso basado en roles (RBAC) representan alternativas ampliamente utilizadas para restringir el acceso a los recursos únicamente a los usuarios autorizados.\cite{LezcanoGil2023SeguridadNube}
+
+En la Figura \ref{fig:rbac_img} se representa mediante un esquema cómo el control de acceso basado en roles organiza a los usuarios en diferentes categorías según sus responsabilidades y funciones dentro de la organización, asignando permisos específicos a cada rol.
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.8\textwidth]{img/rbac.png}
@@ -94,7 +98,7 @@ En el contexto del desarrollo actual, la interconexión y la interoperabilidad, 
 A nivel arquitectónico, las APIs basadas en el estilo REST proponen una comunicación cliente-servidor sin estado que utiliza protocolos e interfaces estandarizadas para intercambiar representaciones de recursos mediante HTTP y formatos ligeros como JSON. Herceg (2024) explica que la modernización de aplicaciones web en .NET ha implicado la adopción de nuevas versiones de los frameworks tradicionales, como ASP.NET Core y ASP.NET Core Identity, los cuales fueron rediseñados para responder a las necesidades actuales de aplicaciones distribuidas y orientadas a la nube, favoreciendo soluciones más ligeras y desacopladas de infraestructuras específicas.\cite{herceg2024modernizing}
 \subsubsection{Persistencia y Mapeo de Datos}
 \label{sec:persistencia_mapeo}
-El almacenamiento, procesamiento y la persistencia de la información en bases de datos relacionales constituyen el núcleo de las soluciones empresariales. Históricamente, las aplicaciones antiguas dependían de primitivas clásicas de acceso a datos (como ADO.NET), lo que obligaba a los programadores a escribir consultas manuales extensas y lidiar con la gestión directa de las conexiones. Con la evolución técnica, cobraron una enorme relevancia los mapeadores objeto-relacional o herramientas ORM (Object-Relational Mapping), las cuales actúan como un traductor entre el modelo de objetos del código y el esquema de tablas de la base de datos relacional. 
+El almacenamiento, procesamiento y la persistencia de la información en bases de datos relacionales constituyen el núcleo de las soluciones empresariales. Históricamente, las aplicaciones antiguas dependían de primitivas clásicas de acceso a datos (como ADO.NET), lo que obligaba a los programadores a escribir consultas manuales extensas y lidiar con la gestión directa de las conexiones. Con la evolución técnica, cobraron una enorme relevancia los mapeadores objeto-relacional o herramientas ORM (Object-Relational Mapping), las cuales actúan como un traductor entre el modelo de objetos del código y el esquema de tablas de la base de datos relacional, tal como se representa en la Figura \ref{fig:orm_img}
 
 \begin{figure}[htbp]
     \centering
