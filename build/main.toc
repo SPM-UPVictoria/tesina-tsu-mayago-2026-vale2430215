@@ -26,19 +26,19 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Sistemas Heredados (Legacy Systems)}{9}{subsubsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.2}Evolución de las Tecnologías de Desarrollo Web en Microsoft}{10}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}La Era de ASP.NET Web Forms}{10}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Nueva Generación de la Plataforma .NET (.NET Core y .NET moderno)}{11}{subsubsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3}Patrones de Diseño y Arquitectura de Software}{11}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Patrones Arquitectónicos}{12}{subsubsection.2.3.1}%
-\contentsline {paragraph}{\numberline {2.3.1.1}Patrón Modelo-Vista-Controlador (MVC)}{12}{paragraph.2.3.1.1}%
-\contentsline {subsection}{\numberline {2.4}Seguridad, Autenticación e Integración de Datos}{13}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Control de Acceso Basado en Roles (RBAC)}{13}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Integración de Sistemas mediante APIs}{14}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Persistencia y Mapeo de Datos}{14}{subsubsection.2.4.3}%
-\contentsline {section}{\numberline {3}Metodología}{15}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Propuesta de Solución}{15}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Beneficios}{15}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Recursos Técnicos y de Software}{16}{subsubsection.3.1.2}%
-\contentsline {section}{\numberline {4}Resultados}{17}{section.4}%
-\contentsline {section}{\numberline {5}Conclusiones}{18}{section.5}%
-\contentsline {section}{Bibliografía}{19}{section.5}%
-\contentsline {section}{Anexos}{21}{section.5}%
+\contentsline {subsubsection}{\numberline {2.2.2}Nueva Generación de la Plataforma .NET (.NET Core y .NET moderno)}{12}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Patrones de Diseño y Arquitectura de Software}{12}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Patrones Arquitectónicos}{13}{subsubsection.2.3.1}%
+\contentsline {paragraph}{\numberline {2.3.1.1}Patrón Modelo-Vista-Controlador (MVC)}{13}{paragraph.2.3.1.1}%
+\contentsline {subsection}{\numberline {2.4}Seguridad, Autenticación e Integración de Datos}{14}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Control de Acceso Basado en Roles (RBAC)}{14}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Integración de Sistemas mediante APIs}{15}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Persistencia y Mapeo de Datos}{16}{subsubsection.2.4.3}%
+\contentsline {section}{\numberline {3}Metodología}{17}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Propuesta de Solución}{17}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Beneficios}{17}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Recursos Técnicos y de Software}{18}{subsubsection.3.1.2}%
+\contentsline {section}{\numberline {4}Resultados}{19}{section.4}%
+\contentsline {section}{\numberline {5}Conclusiones}{20}{section.5}%
+\contentsline {section}{Bibliografía}{21}{section.5}%
+\contentsline {section}{Anexos}{23}{section.5}%

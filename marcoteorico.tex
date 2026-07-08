@@ -8,6 +8,13 @@ Actualmente, la tecnología avanza tan rápido que las organizaciones e instituc
 \label{sec:sistemas_heredados}
 Un concepto clave en esta área son los llamados "sistemas heredados" o legacy systems. Básicamente, son sistemas de información viejos que todavía se usan porque son el motor principal de las operaciones diarias de una empresa, pero que ya se quedaron atrasados respecto a las tecnologías y estándares actuales. De acuerdo con Abu Bakar, Razali y Jambari (2020), estos sistemas utilizan lenguajes de programación y herramientas de generaciones pasadas.\cite{AbuBakar2020LegacyModernization} Aunque suelen dar problemas técnicos o fallas constantes, las organizaciones no los pueden dejar de usar tan fácilmente porque tienen un valor muy alto. Esto pasa porque el sistema viejo guarda las reglas del negocio, los datos históricos de muchos años y la costumbre de los usuarios que ya se la saben de memoria; apagar el sistema de golpe afectaría por completo el trabajo de todos los días.
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/legacy.jpg}
+    \caption{Componentes de un sistema heredado.}
+    \label{fig:legacy_img}
+\end{figure}
+
 El verdadero problema es que mantener un sistema viejo con el tiempo se vuelve una pesadilla muy cara y lenta. Cada vez es más difícil encontrar programadores que conozcan herramientas antiguas, y por lo general, la documentación o los manuales para guiarse ya no existen o están incompletos. Al final, el sistema se vuelve una barrera que no deja que la institución innove o agregue nuevas funciones que los usuarios necesitan.
 
 Sobre esto, Mandviwalla, Tiwana y Bradshaw (2026) comentan que los sistemas viejos y personalizados terminan atrapando los datos en diferentes bases de datos que no se hablan entre sí. Intentar arreglar esto con soluciones rápidas o provisionales solo aumenta la "deuda técnica" (el desorden en el código), creando una trampa que eleva el riesgo de que el sistema se caiga o sufra ataques cibernéticos.\cite{mandviwalla2025modernizing} Por lo tanto, la mejor opción es aplicar técnicas de ingeniería inversa (revisar el código viejo para entender qué hace) y migrar la plataforma hacia un entorno moderno, recuperando la flexibilidad del software pero cuidando la información de la institución.
@@ -19,6 +26,13 @@ El desarrollo de aplicaciones web con Microsoft ha pasado por una gran transform
 \subsubsection{La Era de ASP.NET Web Forms}
 \label{sec:aspnet_webforms}
 Lanzado a principios de la década de los 2000, ASP.NET Web Forms fue fundamental durante muchos años para la creación de sistemas empresariales y gubernamentales a gran escala. Según Zhu (2022), ASP.NET permite acelerar el desarrollo web mediante controles y funcionalidades integradas que posibilitan mostrar bases de datos y realizar tareas complejas con pocas líneas de código. Asimismo, Visual Studio incorpora herramientas visuales que facilitan la creación de interfaces mediante el arrastre y colocación de componentes.\cite{zhu2022diseno}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/webforms.png}
+    \caption{Ejemplo de aplicación realizada con ASP.NET Web Forms.}
+    \label{fig:webforms_img}
+\end{figure}
 
 Sin embargo, para ofrecer una experiencia con estado sobre el protocolo HTTP, ASP.NET Web Forms incorporó el View State, un campo oculto que permitía restaurar el estado de los controles entre solicitudes al servidor. Herceg (2024) señala que este enfoque facilitaba el desarrollo de aplicaciones web, aunque también podía ocasionar tiempos de respuesta más largos, parpadeos en la interfaz y problemas de rendimiento debido al tamaño del estado almacenado en cada petición. Además, el autor destaca la importancia de mantener separada la lógica de negocio de la presentación para simplificar el mantenimiento y futuras migraciones tecnológicas.\cite{herceg2024modernizing}
 
@@ -47,6 +61,13 @@ Los componentes son:\cite{enriquez2023impacto}
     \item \textbf{Controlador:} Su función es comunicar al modelo con la vista, solicita los datos necesarios al modelo, los procesa y se los entrega a la vista para que los muestre.
 \end{itemize}
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/mvc.png}
+    \caption{Representación del patrón MVC.}
+    \label{fig:mvc_img}
+\end{figure}
+
 Enríquez et al. (2023) destacan en sus conclusiones que el patrón MVC ofrece ventajas sustanciales, ya que permite separar limpiamente la lógica de la presentación de la lógica de negocio, lo que otorga una alta robustez al software, facilita enormemente la reutilización de código y agiliza la realización de pruebas unitarias o de testing.\cite{enriquez2023impacto}
 Por su parte, Giraldo Mejía, Vargas Agudelo y Garzón Gil (2021) señalan que el patrón MVC constituye una alternativa adecuada para proyectos de desarrollo web que requieren mantenibilidad, rendimiento y flexibilidad. Asimismo, destacan que definir una arquitectura antes de iniciar la codificación permite a los equipos de desarrollo reducir reprocesos y mantener una estructura organizada y mantenible a lo largo del proyecto.\cite{giraldo2021marco}
 
@@ -59,6 +80,14 @@ La transición hacia entornos modernos basados en internet y computación en la 
 Para evitar violaciones de seguridad y garantizar que solo las personas autorizadas interactúen con la información, es fundamental implementar políticas de control de acceso bien estructuradas. En este ámbito, los mecanismos de autenticación y autorización desempeñan un papel crucial. De acuerdo con Lezcano Gil, Olivarez Geronimo y Mendoza de los Santos (2023), el control de acceso y la autenticación multifactorial constituyen medidas fundamentales para la protección de la información en la nube, mientras que modelos como el control de acceso basado en roles (RBAC) representan alternativas ampliamente utilizadas para restringir el acceso a los recursos únicamente a los usuarios autorizados.\cite{LezcanoGil2023SeguridadNube}
 
 El control de acceso basado en roles permite asignar permisos específicos a los usuarios de acuerdo con su función dentro de la institución. En este sentido, Villanueva Guzmán et al. (2025) muestran que es posible establecer restricciones para que únicamente los administradores puedan modificar información crítica, como los productos del sistema, mientras que los usuarios estándar cuentan con permisos limitados de consulta, garantizando así la protección de los recursos sensibles.\cite{VillanuevaGuzman2025RestfulAPIs} Asimismo, Herceg (2024) señala que los antiguos proveedores de Membership y Roles de ASP.NET deben migrarse hacia ASP.NET Core Identity durante los procesos de modernización, ya que esta biblioteca emplea un formato distinto para el almacenamiento de contraseñas cifradas y proporciona mecanismos seguros para realizar la transición de las cuentas de usuario existentes.\cite{herceg2024modernizing}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/rbac.png}
+    \caption{Representación del control de acceso basado en roles (RBAC).}
+    \label{fig:rbac_img}
+\end{figure}
+
 \subsubsection{Integración de Sistemas mediante APIs}
 \label{sec:integracion_sistemas}
 En el contexto del desarrollo actual, la interconexión y la interoperabilidad, que es la capacidad de diferentes sistemas para compartir y utilizar información de forma coherente, pueden apoyarse en el uso de interfaces de programación de aplicaciones (APIs). Villanueva Guzmán et al. (2025) señalan que, en el desarrollo móvil y web moderno, las APIs RESTful se han convertido en una herramienta esencial para el desarrollo backend, ya que permiten conectar de forma segura y eficiente múltiples canales digitales, como aplicaciones móviles y plataformas web, facilitando el intercambio de recursos e información en tiempo real sin necesidad de diseñar continuamente nuevas infraestructuras de conectividad.\cite{VillanuevaGuzman2025RestfulAPIs}
