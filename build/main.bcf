@@ -2401,11 +2401,12 @@
     <bcf:citekey order="26" intorder="1">enriquez2023impacto</bcf:citekey>
     <bcf:citekey order="27" intorder="1">giraldo2021marco</bcf:citekey>
     <bcf:citekey order="28" intorder="1">LezcanoGil2023SeguridadNube</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">VillanuevaGuzman2025RestfulAPIs</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">herceg2024modernizing</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">VillanuevaGuzman2025RestfulAPIs</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">herceg2024modernizing</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">rizvi2016accesscontrol</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">VillanuevaGuzman2025RestfulAPIs</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">herceg2024modernizing</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">VillanuevaGuzman2025RestfulAPIs</bcf:citekey>
     <bcf:citekey order="33" intorder="1">herceg2024modernizing</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">herceg2024modernizing</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -63,7 +63,7 @@ Los componentes son:\cite{enriquez2023impacto}
     \item \textbf{Controlador:} Su función es comunicar al modelo con la vista, solicita los datos necesarios al modelo, los procesa y se los entrega a la vista para que los muestre.
 \end{itemize}
 
-En la Figura \ref{fig:mvc_img} se muestra un diagrama hecho por Krasner y Pope (1988) que muestra el proceso de como el controlador recibe la acción del usuario y la manda al modelo. De igual forma, como el modelo cambia de estado y notifica a la vista y al controlador, esto también aplica para la vista que consultan el estado del modelo y actualizan su representación visual.\cite{krasner1988mvc}
+En la Figura \ref{fig:mvc_img} se muestra un diagrama hecho por Krasner y Pope que muestra el proceso de como el controlador recibe la acción del usuario y la manda al modelo. De igual forma, como el modelo cambia de estado y notifica a la vista y al controlador, esto también aplica para la vista que consultan el estado del modelo y actualizan su representación visual.\cite{krasner1988mvc}
 
 \begin{figure}[htbp]
     \centering
@@ -72,21 +72,21 @@ En la Figura \ref{fig:mvc_img} se muestra un diagrama hecho por Krasner y Pope (
     \label{fig:mvc_img}
 \end{figure}
 
-Enríquez et al. (2023) destacan en sus conclusiones que el patrón MVC ofrece ventajas sustanciales, ya que permite separar limpiamente la lógica de la presentación de la lógica de negocio, lo que otorga una alta robustez al software, facilita enormemente la reutilización de código y agiliza la realización de pruebas unitarias o de testing.\cite{enriquez2023impacto}
-Por su parte, Giraldo Mejía, Vargas Agudelo y Garzón Gil (2021) señalan que el patrón MVC constituye una alternativa adecuada para proyectos de desarrollo web que requieren mantenibilidad, rendimiento y flexibilidad. Asimismo, destacan que definir una arquitectura antes de iniciar la codificación permite a los equipos de desarrollo reducir reprocesos y mantener una estructura organizada y mantenible a lo largo del proyecto.\cite{giraldo2021marco}
+Enríquez et al. (2023) destacan que este patrón le da una gran robustez al sotware, facilita la reutilización de código y agiliza el proceso de pruebas, ya que se mantiene más limpieza al tener separada la lógica de la presentación.\cite{enriquez2023impacto}
+Por su parte, Mejía, Agudelo y Gil (2021) señalan que el patrón MVC constituye una alternativa adecuada para proyectos de desarrollo web que requieren mantenibilidad, rendimiento y flexibilidad. De igual forma, destacan que definir una arquitectura antes de iniciar la codificación permite a los equipos de desarrollo reducir reprocesos y mantener una estructura organizada y mantenible a lo largo del proyecto.\cite{giraldo2021marco}
 
 \subsection{Seguridad, Autenticación e Integración de Datos}
 \label{sec:seguridad_autenticacion}
-La transición hacia entornos modernos basados en internet y computación en la nube ha transformado la manera en que las organizaciones gestionan sus servicios. No obstante, este panorama también incluye importantes desafíos de seguridad y privacidad, ya que cualquier tipo de acceso no autorizado podría poner en riesgo los datos confidenciales de una empresa. Por ello, las organizaciones deben implementar políticas y cortafuegos eficaces que supervisen y salvaguarden de forma integral todo el ecosistema digital, garantizando la confidencialidad, control de acceso y protección de la información sensible.
+La transición hacia entornos digitales y computación en la nube ha cambiado la forma en que las organizaciones gestionan sus servicios. Sin embargo, esto también trae desafíos de seguridad, ya que cualquier acceso no autorizado puede poner en rieso la información confidencial de una empresa. Por eso, las organizaciones deben implementar políticas de seguridad que protejan todo el sistema de manera integral, y así garantizar la confidencialidad, el control de acceso y la protección a la información sensible.
 
 \subsubsection{Control de Acceso Basado en Roles (RBAC)}
 \label{sec:rbac}
-Para evitar violaciones de seguridad y garantizar que solo las personas autorizadas interactúen con la información, es fundamental implementar políticas de control de acceso bien estructuradas. En este ámbito, los mecanismos de autenticación y autorización desempeñan un papel crucial. De acuerdo con Lezcano Gil, Olivarez Geronimo y Mendoza de los Santos (2023), el control de acceso y la autenticación multifactorial constituyen medidas fundamentales para la protección de la información en la nube, mientras que modelos como el control de acceso basado en roles (RBAC) representan alternativas ampliamente utilizadas para restringir el acceso a los recursos únicamente a los usuarios autorizados.\cite{LezcanoGil2023SeguridadNube}
+Para evitar violaciones de seguridad y garantizar que solo las personas autorizadas interactúen con la información, se implementan políticas de control de acceso. De acuerdo con Gil, Geronimo y Mendoza de los Santos (2023), el control de acceso y la autenticación multifactorial se constituyen por medidas fundamentales para la protección de la información en la nube, mientras que modelos como el control de acceso basado en roles (RBAC) representan alternativas ampliamente utilizadas para restringir el acceso a los recursos únicamente a los usuarios autorizados.\cite{LezcanoGil2023SeguridadNube}
 
-En la Figura \ref{fig:rbac_img} se representa mediante un esquema cómo el control de acceso basado en roles organiza a los usuarios en diferentes categorías según sus responsabilidades y funciones dentro de la organización, asignando permisos específicos a cada rol.
+En la Figura \ref{fig:rbac_img} se representa mediante un esquema hecho por Rizvi y Mitchell cómo el control de acceso basado en roles organiza a los usuarios en diferentes categorías según sus responsabilidades y funciones dentro de la organización, asignando permisos específicos a cada rol.\cite{rizvi2016accesscontrol}
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/rbac.png}
+    \includegraphics[width=0.6\textwidth]{img/rbac.png}
     \caption{Representación del control de acceso basado en roles (RBAC).}
     \label{fig:rbac_img}
 \end{figure}
@@ -100,7 +100,7 @@ En el contexto del desarrollo actual, la interconexión y la interoperabilidad, 
 A nivel arquitectónico, las APIs basadas en el estilo REST proponen una comunicación cliente-servidor sin estado que utiliza protocolos e interfaces estandarizadas para intercambiar representaciones de recursos mediante HTTP y formatos ligeros como JSON. Herceg (2024) explica que la modernización de aplicaciones web en .NET ha implicado la adopción de nuevas versiones de los frameworks tradicionales, como ASP.NET Core y ASP.NET Core Identity, los cuales fueron rediseñados para responder a las necesidades actuales de aplicaciones distribuidas y orientadas a la nube, favoreciendo soluciones más ligeras y desacopladas de infraestructuras específicas.\cite{herceg2024modernizing}
 \subsubsection{Persistencia y Mapeo de Datos}
 \label{sec:persistencia_mapeo}
-El almacenamiento, procesamiento y la persistencia de la información en bases de datos relacionales constituyen el núcleo de las soluciones empresariales. Históricamente, las aplicaciones antiguas dependían de primitivas clásicas de acceso a datos (como ADO.NET), lo que obligaba a los programadores a escribir consultas manuales extensas y lidiar con la gestión directa de las conexiones. Con la evolución técnica, cobraron una enorme relevancia los mapeadores objeto-relacional o herramientas ORM (Object-Relational Mapping), las cuales actúan como un traductor entre el modelo de objetos del código y el esquema de tablas de la base de datos relacional, tal como se representa en la Figura \ref{fig:orm_img}
+El almacenamiento y la gestión de datos en bases de datos relacionales son clave para las soluciones empresariales.Hace tiempo, las aplicaciones antiguas usaban formas básicas de acceder a los datos, como ADO.NET. Esto hacía que los programadores tuvieran que escribir muchas líneas de código para hacer consultas y manejar las conexiones directamente. Con el tiempo, los mapeadores objeto-relacional, conocidos como ORM (Object-Relational Mapping), ganaron importancia. Estas herramientas funcionan como un traductor entre el modelo de objetos en el código y la estructura de tablas en la base de datos relacional, tal como se reprenta en la Figura \ref{fig:orm_img}.
 
 \begin{figure}[htbp]
     \centering

@@ -556,6 +556,40 @@
       \verb https://doi.org/10.47796/ing.v5i0.796
       \endverb
     \endentry
+    \entry{rizvi2016accesscontrol}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=bc105cd296b6511321beb569f38ee61f}{%
+           family={Rizvi},
+           familyi={R\bibinitperiod},
+           given={Syed},
+           giveni={S\bibinitperiod}}}%
+        {{hash=94e8ebd60a38c8f7d6e8cb85fefd7d87}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5526af716cbd47a787c0dbe9bab79c47}
+      \strng{fullhash}{5526af716cbd47a787c0dbe9bab79c47}
+      \strng{fullhashraw}{5526af716cbd47a787c0dbe9bab79c47}
+      \strng{bibnamehash}{5526af716cbd47a787c0dbe9bab79c47}
+      \strng{authorbibnamehash}{5526af716cbd47a787c0dbe9bab79c47}
+      \strng{authornamehash}{5526af716cbd47a787c0dbe9bab79c47}
+      \strng{authorfullhash}{5526af716cbd47a787c0dbe9bab79c47}
+      \strng{authorfullhashraw}{5526af716cbd47a787c0dbe9bab79c47}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2326-7550}
+      \field{journaltitle}{Services Transactions on Cloud Computing}
+      \field{number}{3}
+      \field{title}{A New Access Control Scheme for Protecting Distributed Cloud Services and Resources}
+      \field{volume}{4}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+    \endentry
     \entry{VillanuevaGuzman2025RestfulAPIs}{article}{}{}
       \name{author}{5}{}{%
         {{hash=9278d9544718594a0c8f11549ba5cc1c}{%
@@ -592,8 +626,8 @@
       \strng{authornamehash}{12036e6ad4214fb30d87ff3c5235ec67}
       \strng{authorfullhash}{56d173237a4892b8cb3994abce299328}
       \strng{authorfullhashraw}{56d173237a4892b8cb3994abce299328}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2707-2215}
