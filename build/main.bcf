@@ -2384,25 +2384,28 @@
     <bcf:citekey order="9" intorder="1">enriquez2023impacto</bcf:citekey>
     <bcf:citekey order="10" intorder="1">AbuBakar2020LegacyModernization</bcf:citekey>
     <bcf:citekey order="11" intorder="1">AbuBakar2020LegacyModernization</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">mandviwalla2025modernizing</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">zhu2022diseno</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">herceg2024modernizing</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">herceg2024modernizing</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">sommerville2001software</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">mandviwalla2025modernizing</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">zhu2022diseno</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">microsoft2022aspnetwebforms</bcf:citekey>
     <bcf:citekey order="16" intorder="1">herceg2024modernizing</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">MontesBaez2024Serverbox</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">Montgomery2025ModernizingEnterpriseWebPlatforms</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">alvarez2022analisis</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">enriquez2023impacto</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">herceg2024modernizing</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">herceg2024modernizing</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">MontesBaez2024Serverbox</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">Montgomery2025ModernizingEnterpriseWebPlatforms</bcf:citekey>
     <bcf:citekey order="21" intorder="1">alvarez2022analisis</bcf:citekey>
     <bcf:citekey order="22" intorder="1">enriquez2023impacto</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">enriquez2023impacto</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">giraldo2021marco</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">LezcanoGil2023SeguridadNube</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">VillanuevaGuzman2025RestfulAPIs</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">herceg2024modernizing</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">VillanuevaGuzman2025RestfulAPIs</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">herceg2024modernizing</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">alvarez2022analisis</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">enriquez2023impacto</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">krasner1988mvc</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">enriquez2023impacto</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">giraldo2021marco</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">LezcanoGil2023SeguridadNube</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">VillanuevaGuzman2025RestfulAPIs</bcf:citekey>
     <bcf:citekey order="30" intorder="1">herceg2024modernizing</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">VillanuevaGuzman2025RestfulAPIs</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">herceg2024modernizing</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">herceg2024modernizing</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

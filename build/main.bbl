@@ -227,6 +227,35 @@
       \verb https://doi.org/10.18517/ijaseit.10.3.10265
       \endverb
     \endentry
+    \entry{sommerville2001software}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{26}
+      \field{edition}{6}
+      \field{isbn}{9780201398151}
+      \field{title}{Software Engineering}
+      \field{year}{2001}
+    \endentry
     \entry{zhu2022diseno}{article}{}{}
       \name{author}{1}{}{%
         {{hash=bd313c991d0e503f199197406aa0de78}{%
@@ -257,6 +286,37 @@
       \endverb
       \verb{url}
       \verb https://oa.upm.es/69931/1/TFG_YIDONG_ZHU.pdf
+      \endverb
+    \endentry
+    \entry{microsoft2022aspnetwebforms}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Microsoft}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Microsoft Learn. Última actualización: 18 de abril de 2022. Consultado el 9 de julio de 2026}
+      \field{title}{Introducción y descripción general: Introducción a ASP.NET 4.5 Web Forms}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/es-es/aspnet/web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/introduction-and-overview
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/es-es/aspnet/web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/introduction-and-overview
       \endverb
     \endentry
     \entry{MontesBaez2024Serverbox}{article}{}{}
@@ -318,8 +378,8 @@
       \strng{authornamehash}{0b5764b2a1073264d58b6ac12cff7c9e}
       \strng{authorfullhash}{0b5764b2a1073264d58b6ac12cff7c9e}
       \strng{authorfullhashraw}{0b5764b2a1073264d58b6ac12cff7c9e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The American Journal of Engineering and Technology}
@@ -367,8 +427,8 @@
       \strng{authornamehash}{be01cc6842528d93a3491170161a3723}
       \strng{authorfullhash}{be01cc6842528d93a3491170161a3723}
       \strng{authorfullhashraw}{be01cc6842528d93a3491170161a3723}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Polo del Conocimiento: Revista científico-profesional}
@@ -378,6 +438,39 @@
       \field{year}{2022}
       \field{pages}{2146\bibrangedash 2165}
       \range{pages}{20}
+    \endentry
+    \entry{krasner1988mvc}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9bfbfad21c965b54d0802df075d65b20}{%
+           family={Krasner},
+           familyi={K\bibinitperiod},
+           given={Glenn\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=e607b1001c34ae04a5ded9806b457bd1}{%
+           family={Pope},
+           familyi={P\bibinitperiod},
+           given={Stephen\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{10a70c3fe8bcda7adb6ee36438ee004c}
+      \strng{fullhash}{10a70c3fe8bcda7adb6ee36438ee004c}
+      \strng{fullhashraw}{10a70c3fe8bcda7adb6ee36438ee004c}
+      \strng{bibnamehash}{10a70c3fe8bcda7adb6ee36438ee004c}
+      \strng{authorbibnamehash}{10a70c3fe8bcda7adb6ee36438ee004c}
+      \strng{authornamehash}{10a70c3fe8bcda7adb6ee36438ee004c}
+      \strng{authorfullhash}{10a70c3fe8bcda7adb6ee36438ee004c}
+      \strng{authorfullhashraw}{10a70c3fe8bcda7adb6ee36438ee004c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Object-Oriented Programming}
+      \field{number}{3}
+      \field{title}{A Description of the Model-View-Controller User Interface Paradigm in the Smalltalk-80 System}
+      \field{volume}{1}
+      \field{year}{1988}
+      \field{pages}{26\bibrangedash 49}
+      \range{pages}{24}
     \endentry
     \entry{giraldo2021marco}{article}{}{}
       \name{author}{3}{}{%
