@@ -1,0 +1,116 @@
+\section{Marco Teórico}
+\label{ch:marcoteroico}
+
+\subsection{Modernización de Sistemas}
+\label{sec:modernizacion_sistemas}
+Durante los últimos años, la tecnología ha avanzado a gran velocidad, por lo que la actualización de los sistemas de software de las instituciones se ha vuelto una de las tareas más importantes. El "modernizar un sistema" se refiere al proceso de mejorar un software de manera progresiva sin que este pierda su funcionalidad original. Según los investigadores Abu Bakar, Razali y Jambari (2020), modernizar consiste en renovar esas aplicaciones viejas utilizando tecnologías actuales o estructuras más modernas. El objetivo principal de esta modernización es hacer que el sistema sea capaz de adaptarse a los cambios que surgen para la organización y también, funcionar mejor y tener más seguridad.\cite{AbuBakar2020LegacyModernization}
+
+\subsubsection{Sistemas Heredados (Legacy Systems)}
+\label{sec:sistemas_heredados}
+El concepto de sistemas heredados o "legacy systems" se refiere a todos esos sistemas que están atrasados tecnológicamente pero que aún se utilizan gracias a su funcionamiento y utilidad en las actividades diarias de su empresa. Abu Bakar, Razali y Jambari (2020) dicen que a pesar que estos sistemas utilizan legunajes de programación de generaciones pasadas y suelen dar problemás técnicos recurrentemente, las organizaciones no los dejan de usar tan sencillamente solo por el hecho de que estos tienen un valor muy alto, los usuarios ya están acostumbrados a su funcionamiento y este ya está adaptado a las reglas de negocio de la organización, entonces apagarlo solo representaría un óbstaculo en las actividades laborales cotidianas. \cite{AbuBakar2020LegacyModernization} 
+En el diagrama de la Figura \ref{fig:legacy_img}, se pueden ver los componentes que forman parte de un sistema heredado típico, incluyendo el software y reglas de negocio, y como todo está relacionado entre sí.\cite{sommerville2001software}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/legacy.png}
+    \caption{Componentes de un sistema heredado.}
+    \cite{sommerville2001software}
+    \label{fig:legacy_img}
+\end{figure}
+
+Cada vez es más difícil encontrar a programadores que conozcan tecnologías antiguas, por lo que se ha hecho un problema muy presente el mantener funcional un sistema viejo. Además, la documentación de estos sistemas suele estar incompleta, y todo se reduce a que el sistema propio se vuelve una carga para la institución al no poder agregar nuevas funciones para los usuarios.
+
+Sobre esto, Mandviwalla, Tiwana y Bradshaw (2026) mencionan que los sistemas viejos y personalizados terminan atrapando los datos en diferentes bases de datos que no se hablan entre sí. Intentar arreglar esto con soluciones rápidas o provisionales solo aumenta la deuda técnica, haciendo que el riesgo de que el sistema se caiga o sufra ataques cibernéticos sea incluso mayor.\cite{mandviwalla2025modernizing} Por lo tanto, la mejor opción es revisar el código viejo para entender qué hace y así poder migrar la plataforma hacia un entorno moderno, siempre resguardando la información de la institución pero ahora con un sistema tanto funcional como seguro y flexible.
+
+\subsection{Evolución de las Tecnologías de Desarrollo Web en Microsoft}
+\label{sec:evolucion_tecnologias}
+A lo largo de los últimos años, las tecnologías para el desarrollo web con Microsoft evolucionaron  desde  un modelo que era solamente para Windows y servidores locales, hasta un entorno abierto y diseñado para la nube. Esto representa un gran cambio en como programan los desarrolladores y en las metodologías que usan las organizaciones para actualizar sus aplicaciones.
+
+\subsubsection{La Era de ASP.NET Web Forms}
+\label{sec:aspnet_webforms}
+ASP.NET Web Forms fue lanzada a principios de los 2000 y fue muy importante para el desarrollo de sistemas empresariales y gubernamentales. De acuerdo a Zhu (2022), gracias a sus controles y funcionalidades que te permiten mostrar bases de datos y realizar tareas con pocas líneas de código, ASP.NET se convirtió en una herramienta destacada por su rapidez para crear aplicaciones web.\cite{zhu2022diseno}. En la Figura \ref{fig:webforms_img} se muestra un ejemplo de una aplicación desarrollada con ASP.NET Web Forms, mostrando la interfaz de usuario y algunos de los controles disponibles para interactuar con la información.\cite{microsoft2022aspnetwebforms}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{img/webforms.png}
+    \caption{Ejemplo de aplicación realizada con ASP.NET Web Forms.}
+    \cite{microsoft2022aspnetwebforms}
+    \label{fig:webforms_img}
+\end{figure}
+
+Después, se incorporó  el View State, un campo oculto para restaurar el estado de los controles entre solicitudes al servidor, esto para ofrecer una experiencia con estado sobre el protocolo HTTP y facilitar el desarrollo web. Herceg (2024) señala que este enfoque era bastante útil pero que ocasionaba tiempos de respuesta más largos, fallas en la interfaz y problemas de rendimiento. Además de esto. también destaca la importancia de tener separada la lógica de la interfaz para simplificar el mantenimiento y futuras migraciones tecnológicas.\cite{herceg2024modernizing}
+
+Además, ASP.NET Web Forms mantenía una estrecha integración con Internet Information Services (IIS) y con componentes específicos del ecosistema Windows, lo que dificultaba su ejecución en otros entornos. Herceg (2024) señala que Microsoft decidió no ofrecer soporte para esta tecnología en .NET Core debido a la complejidad de reimplementarla sin introducir cambios incompatibles significativos, por lo que la modernización de estas aplicaciones requiere la reescritura de las páginas y componentes de interfaz utilizando otras tecnologías de presentación.\cite{herceg2024modernizing}
+\subsubsection{Nueva Generación de la Plataforma .NET (.NET Core y .NET moderno)}
+\label{sec:nueva_generacion_net}
+En el año 2016 se lanzó .NET Core 1.0, que se diseñó desde cero para ser código abierto, modular y multiplataforma, es decir , que podía correr tanto en Windows como en Linux y macOS, lo que marcó el inició de una nueva generación tecnológica. Como describe Herceg (2024), .NET 5 fue el sucesor a .NET Core 3.1 y dio origen a la actual línea de versiones de .NET (5, 6, 7 y posteriores). Debido a esto, Microsoft estableció que .NET Framework recibiría actualizaciones de seguridad, mientras que el desarrollo de nuevas funcionalidades y tecnologías se concentraría solo en la rama moderna de .NET.\cite{herceg2024modernizing}
+
+Esta nueva plataforma destaca por su alto rendimiento y velocidad. Los ingenieros Montes Baez y Portilla Flores (2024) señalan que la adopción de arquitecturas distribuidas y microservicios en ASP.NET Core permite desarrollar, probar y desplegar componentes de manera independiente, lo que facilita la actualización de funcionalidades específicas sin necesidad de publicar todo el sistema y mejora su agilidad y escalabilidad.\cite{MontesBaez2024Serverbox} Por otra parte, Montgomery (2025), sostiene que la migración hacia .NET moderno favorece la adopción de arquitecturas modulares y orientadas a la nube, incrementando la flexibilidad, la capacidad de crecimiento y la adaptación de los sistemas empresariales a las necesidades tecnológicas actuales.\cite{Montgomery2025ModernizingEnterpriseWebPlatforms}
+\subsection{Patrones de Diseño y Arquitectura de Software}
+\label{sec:patrones_diseno}
+En el ámbito de la ingeniería de software, los programadores buscan constantemente estrategias para estructurar código de manera eficiente, optimizar la velocidad de su trabajo y mejorar la calidad de las aplicaciones. Al realizar un proyecto es normal que el código sea algo repetitivo en especial al trabajar en elementos de la interfaz. Si estas características no se gestionan correctamente, suelen duplicarse, lo que genera un código realmente extenso, desorganizado y difícil de mantener. 
+
+Para solucionar este inconveniente, se introdujeron los patrones de diseño . Aplicado en desarrollo de sistemas, los investigadores Gavilánez Alvarez, Layedra y Ramos (2022) aclaran que un patrón de diseño no consiste en un conjunto de herramientas que se instalan directamente en el código de una aplicación, sino que es un concepto y un razonamiento lógico bien definido para resolver problemas comunes de organización e interfaces.\cite{alvarez2022analisis} Su implementación evita la duplicación de código, facilita su reutilización y asegura la validez del software al basarse en estructuras que ya han sido probadas por otros desarrolladores.
+\subsubsection{Patrones Arquitectónicos}
+\label{sec:patrones_arquitectonicos}
+Existe un gran número de patrones que existen en la actualidad, estos se agrupan en categorías según sus características, es aquí donde entra el concepto de patrones arquitectónicos. Como señalan Enríquez et al. (2023), los patrones arquitectónicos definen la estructura básica de un sistema informático y funcionan como una plantilla base sobre la cual se construye una aplicación, permitiendo organizar sus componentes y responsabilidades de manera más eficiente.\cite{enriquez2023impacto}
+
+\paragraph{Patrón Modelo-Vista-Controlador (MVC)} ~\\
+\label{sec:mvc}El Modelo-Vista-Controlador, conocido popularmente como MVC, es uno de los patrones arquitectónicos más utilizados y populares en la industria del desarrollo de software. Fue descrito por primera vez por Trygve Reenskaug en el año 1979. Según la revisión bibliográfica realizada por Gavilánez Alvarez, Layedra y Ramos (2022), el propósito fundamental del MVC es clasificar la información, la lógica interna del sistema y la interfaz que se le presenta al usuario, dividiendo la aplicación en tres módulos o componentes.\cite{alvarez2022analisis}
+
+Los componentes son:\cite{enriquez2023impacto}
+\begin{itemize}
+    \item \textbf{Modelo:} Es el componente responsable de manipular, gestionar y actualizar directamente los datos del sistema.
+    \item \textbf{Vista:} Se encarga de la interfaz de usuario. Su función es presentar visualmente la información en pantallas y recibir las interacciones finales del usuario.
+    \item \textbf{Controlador:} Su función es comunicar al modelo con la vista, solicita los datos necesarios al modelo, los procesa y se los entrega a la vista para que los muestre.
+\end{itemize}
+
+En la Figura \ref{fig:mvc_img} se muestra un diagrama hecho por Krasner y Pope que muestra el proceso de como el controlador recibe la acción del usuario y la manda al modelo. De igual forma, como el modelo cambia de estado y notifica a la vista y al controlador, esto también aplica para la vista que consultan el estado del modelo y actualizan su representación visual.\cite{krasner1988mvc}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/mvc.png}
+    \caption{Representación del patrón MVC.}
+    \cite{krasner1988mvc}
+    \label{fig:mvc_img}
+\end{figure}
+
+Enríquez et al. (2023) destacan que este patrón le da una gran robustez al sotware, facilita la reutilización de código y agiliza el proceso de pruebas, ya que se mantiene más limpieza al tener separada la lógica de la presentación.\cite{enriquez2023impacto}
+Por su parte, Mejía, Agudelo y Gil (2021) señalan que el patrón MVC constituye una alternativa adecuada para proyectos de desarrollo web que requieren mantenibilidad, rendimiento y flexibilidad. De igual forma, destacan que definir una arquitectura antes de iniciar la codificación permite a los equipos de desarrollo reducir reprocesos y mantener una estructura organizada y mantenible a lo largo del proyecto.\cite{giraldo2021marco}
+
+\subsection{Seguridad, Autenticación e Integración de Datos}
+\label{sec:seguridad_autenticacion}
+La transición hacia entornos digitales y computación en la nube ha cambiado la forma en que las organizaciones gestionan sus servicios. Sin embargo, esto también trae desafíos de seguridad, ya que cualquier acceso no autorizado puede poner en rieso la información confidencial de una empresa. Por eso, las organizaciones deben implementar políticas de seguridad que protejan todo el sistema de manera integral, y así garantizar la confidencialidad, el control de acceso y la protección a la información sensible.
+
+\subsubsection{Control de Acceso Basado en Roles (RBAC)}
+\label{sec:rbac}
+Para evitar violaciones de seguridad y garantizar que solo las personas autorizadas interactúen con la información, se implementan políticas de control de acceso. De acuerdo con Gil, Geronimo y Mendoza de los Santos (2023), el control de acceso y la autenticación multifactorial se constituyen por medidas fundamentales para la protección de la información en la nube, mientras que modelos como el control de acceso basado en roles (RBAC) representan alternativas ampliamente utilizadas para restringir el acceso a los recursos únicamente a los usuarios autorizados.\cite{LezcanoGil2023SeguridadNube}
+
+En la Figura \ref{fig:rbac_img} se representa mediante un esquema hecho por Rizvi y Mitchell cómo el control de acceso basado en roles organiza a los usuarios en diferentes categorías según sus responsabilidades y funciones dentro de la organización, asignando permisos específicos a cada rol.\cite{rizvi2016accesscontrol}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/rbac.png}
+    \caption{Representación del control de acceso basado en roles (RBAC).}
+    \cite{rizvi2016accesscontrol}
+    \label{fig:rbac_img}
+\end{figure}
+
+El control de acceso basado en roles permite asignar permisos específicos a los usuarios de acuerdo con su función dentro de la institución. En este sentido, Villanueva Guzmán et al. (2025) muestran que es posible establecer restricciones para que únicamente los administradores puedan modificar información crítica, como los productos del sistema, mientras que los usuarios estándar cuentan con permisos limitados de consulta, garantizando así la protección de los recursos sensibles.\cite{VillanuevaGuzman2025RestfulAPIs} Asimismo, Herceg (2024) señala que los antiguos proveedores de Membership y Roles de ASP.NET deben migrarse hacia ASP.NET Core Identity durante los procesos de modernización, ya que esta biblioteca emplea un formato distinto para el almacenamiento de contraseñas cifradas y proporciona mecanismos seguros para realizar la transición de las cuentas de usuario existentes.\cite{herceg2024modernizing}
+
+\subsubsection{Integración de Sistemas mediante APIs}
+\label{sec:integracion_sistemas}
+En el contexto del desarrollo actual, la interconexión y la interoperabilidad, que es la capacidad de diferentes sistemas para compartir y utilizar información de forma coherente, pueden apoyarse en el uso de interfaces de programación de aplicaciones (APIs). Villanueva Guzmán et al. (2025) señalan que, en el desarrollo móvil y web moderno, las APIs RESTful se han convertido en una herramienta esencial para el desarrollo backend, ya que permiten conectar de forma segura y eficiente múltiples canales digitales, como aplicaciones móviles y plataformas web, facilitando el intercambio de recursos e información en tiempo real sin necesidad de diseñar continuamente nuevas infraestructuras de conectividad.\cite{VillanuevaGuzman2025RestfulAPIs}
+
+A nivel arquitectónico, las APIs basadas en el estilo REST proponen una comunicación cliente-servidor sin estado que utiliza protocolos e interfaces estandarizadas para intercambiar representaciones de recursos mediante HTTP y formatos ligeros como JSON. Herceg (2024) explica que la modernización de aplicaciones web en .NET ha implicado la adopción de nuevas versiones de los frameworks tradicionales, como ASP.NET Core y ASP.NET Core Identity, los cuales fueron rediseñados para responder a las necesidades actuales de aplicaciones distribuidas y orientadas a la nube, favoreciendo soluciones más ligeras y desacopladas de infraestructuras específicas.\cite{herceg2024modernizing}
+\subsubsection{Persistencia y Mapeo de Datos}
+\label{sec:persistencia_mapeo}
+El almacenamiento y la gestión de datos en bases de datos relacionales son clave para las soluciones empresariales.Hace tiempo, las aplicaciones antiguas usaban formas básicas de acceder a los datos, como ADO.NET. Esto hacía que los programadores tuvieran que escribir muchas líneas de código para hacer consultas y manejar las conexiones directamente. Con el tiempo, los mapeadores objeto-relacional, conocidos como ORM (Object-Relational Mapping), ganaron importancia. Estas herramientas funcionan como un traductor entre el modelo de objetos en el código y la estructura de tablas en la base de datos relacional, tal como se reprenta en la Figura \ref{fig:orm_img}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/orm.png}
+    \caption{Representación de la relación entre código y base de datos. Fuente: Elaboración propia}
+    \label{fig:orm_img}
+\end{figure}
+
+En el ecosistema Microsoft, Entity Framework constituye uno de los ORM más utilizados para el acceso a datos y fue completamente rediseñado en las versiones modernas de la plataforma bajo el nombre de Entity Framework Core. Herceg (2024) explica que esta nueva implementación prioriza el rendimiento y una API más expresiva para definir y configurar el modelo de datos mediante código, incorporando enfoques inspirados en el diseño orientado al dominio y adaptándose mejor a arquitecturas modernas basadas en microservicios y entornos en la nube.\cite{herceg2024modernizing}

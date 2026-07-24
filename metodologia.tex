@@ -1,51 +1,275 @@
 \section{Metodología}
+\label{ch:metodologia}
 
-Los métodos y herramientas utilizadas son la descripción detallada de las etapas
-(o pasos, procedimiento) de desarrollo en que se dividió el proyecto y están
-íntimamente relacionadas con los objetivos operativos. Se compara con una
-receta de cocina, es decir, describir a detalle las actividades y acciones realizadas
-en cada etapa de desarrollo, empleando un orden cronológico y en función de los
-objetivos operativos. Sus características son:
-\begin{itemize}
-\item Descripción detallada de las etapas (o pasos) desarrolladas, las cuales están
-relacionadas con cada objetivo operativos. Dependiendo del número de
-objetivos, será el número de etapas de desarrollo reportadas.
-\item En cada etapa de desarrollo, describir las herramientas académicas, técnicas
-y computacionales que se utilizaron, indicando roles y responsabilidades.
-Además, describir las asignaturas o aprendizajes que se obtuvieron durante tu
-formación académica y fueron útiles en el proceso. Así mismo, describir
-herramientas, equipos, tecnologías, etc., que se utilizaron durante el proyecto o
-se aprendieron en la unidad económica.
-\end{itemize}
+\subsection{Propuesta de Solución}
+\label{sec:propuesta_solucion}
+La solución propuesta consiste en el diseño, desarrollo e implementación del Sistema Web de Gestión y Actualización de Datos del Personal del PJETAM, una plataforma web moderna construida sobre el ecosistema de ASP.NET Core que sustituirá por completo al sistema heredado de más de 15 años de antigüedad. El sistema actual, desarrollado originalmente en Visual Basic y ASP.NET Web Forms (el cual se muestra en la Figura \ref{fig:sistema_img}) ha alcanzado el final de su ciclo de vida útil, presentando una severa acumulación de deuda técnica, lentitud extrema debido al procesamiento pesado del estado de las páginas (ViewState), vulnerabilidades críticas en la seguridad de las cuentas y una rigidez estructural que impide agregar nuevas funciones indispensables.
 
-\textit{El informe debe estar soportado por referencias, ademas incluir figuras y tablas. En los siguientes parrafos se ejemplifica como usar dichos elementos. }
-
-De acuerdo con Ivan \cite{Sistema:2018:Ivan}, todos mienten, de la misma forma que Dr. House lo afirma de manera continua a lo largo de las 8 temporadas de la serie. 
-
-Los sistemas de información constituyen un conjunto organizado de recursos —personas, datos, procesos y tecnología— que interactúan para recolectar, procesar, almacenar y distribuir información relevante dentro de una organización. Su propósito principal es apoyar la toma de decisiones, la coordinación y el control, así como facilitar el análisis y la visualización de información estratégica \cite{laudon2020, stair2018}. En el contexto actual, caracterizado por la digitalización y la globalización, los sistemas de información han evolucionado hacia plataformas integradas que permiten la gestión eficiente del conocimiento y la automatización de procesos empresariales \cite{turban2019}. Además, el uso de tecnologías emergentes como la inteligencia artificial y el análisis de datos ha ampliado sus capacidades, permitiendo generar valor a partir de grandes volúmenes de información \cite{davenport2018}.
-
-Por otra parte, la implementación de sistemas de información implica retos importantes relacionados con la alineación estratégica, la seguridad de la información y la gestión del cambio organizacional. Es fundamental que estos sistemas estén alineados con los objetivos del negocio para maximizar su impacto y retorno de inversión \cite{ward2016}. Asimismo, la protección de datos y la ciberseguridad se han convertido en aspectos críticos debido al incremento de amenazas digitales \cite{whitman2018}. Finalmente, el éxito de un sistema de información depende en gran medida de la aceptación por parte de los usuarios y de una adecuada gestión del cambio, lo que requiere capacitación, comunicación efectiva y liderazgo organizacional \cite{heeks2006}.
-
-
-En la figura \ref{fig:my_label}, se muestra una pantalla de una aplicación para contar las calorías de la comida mexicana. (Si la figura se mueve a la siguiente página, es NORMAL, no muevan nada!).
-\begin{figure}[!tbh]
+\begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.5\linewidth]{img/calorias1.png}
-    \caption{Aplicacion ``Mexican Food with Chilly'' \cite{Microsoft:Concepto}}
-    \label{fig:my_label}
+    \includegraphics[width=0.9\textwidth]{img/capturasistema.png}
+    \caption{Dashboard del Sistema de Actualización de Datos del Personal que se utiliza actualmente en el Poder Judicial de Tamaulipas.}
+    \label{fig:sistema_img}
 \end{figure}
 
-En la tabla \ref{tab:my_label}, se muestra una tabla con el listado de los mejores futbolistas del mundo mundial. 
+\subsubsection{Beneficios}
+\label{sec:beneficios}
 
-\begin{table}[!tbh]
+\begin{itemize}
+    \item \textbf{Disminución de deuda técnica y mantenibilidad:} Se reemplaza el código monolítico y acoplado del sistema anterior por una estructura limpia basada en la separación de responsabilidades. Esto permitirá que la dirección de informática del Poder Judicial realice modificaciones, correcciones o añada nuevos módulos en el futuro de forma rápida y aislada, sin riesgo de romper otras partes del software.
+    \item \textbf{Optimización del rendimiento:} Al eliminar los pesados mecanismos de persistencia en el cliente (ViewState) y los flujos circulares (postbacks) propios de Web Forms, la nueva aplicación web procesará las solicitudes de manera ligera y asíncrona. Esto reducirá drásticamente la carga sobre el servidor del PJETAM y el ancho de banda de la red institucional, garantizando tiempos de respuesta casi inmediatos para los empleados.
+    \item \textbf{Fortalecimiento de la seguridad:} La propuesta incluye un esquema de seguridad que remueve los obsoletos proveedores de autenticación del sistema anterior. Se implementará un mecanismo de control de acceso basado en roles (RBAC) y cifrado avanzado de contraseñas para proteger de forma estricta los datos sensibles del personal judicial, asegurando que cada usuario visualice o modifique información exclusivamente de acuerdo con su perfil autorizado.
+\end{itemize}
+
+\subsubsection{Recursos Técnicos y de Software}
+\label{sec:recursos_tecnicos}
+
+\begin{itemize}
+    \item \textbf{Entorno de Desarrollo (IDE):} Microsoft Visual Studio (Edición Enterprise / Community) como plataforma central de codificación.
+    \item \textbf{Framework de Desarrollo:} .NET moderno (ASP.NET Core) configurado bajo el patrón MVC.
+    \item \textbf{Sistema de Gestión de Base de Datos:} Microsoft SQL Server para la persistencia e integración del repositorio de datos existente. 
+    \item \textbf{Herramientas de Mapeo y Migración:} Entity Framework Core integrado mediante la consola de administración de paquetes NuGet.
+\end{itemize}
+
+\subsection{Diseño de Interfaz de Usuario}
+\label{sec:diseño_interfaz}
+
+\subsubsection{Mockups y Diseños en Figma}
+\label{sec:mockups_diseños_figma}
+Para empezar con el desarrollo del sistema, primero se definió el diseño de la interfaz del sistema con ayuda de la herramients Figma, ya que esta el útil para crear prototipos interactivos y observar el flujo del sistema antes de empezar a programar.
+Para este sistema, no solo se buscó que el diseño fuera más moderno al anterior, sino que se tomó en cuenta el sistema anterior para identificar la información de cada una de la pantallas de los módulos pero también los problemas de usabilidad que surgían.
+
+A partir de esto, se intentó mantener los componentes que ya resultaban familiares para los usuarios, esto para que la transición a este nuevo sistema fuera más sencilla; mientras que para los formularios, se buscó reorganizar la presentación para que los pasos para la navegación fuera menos tediosa.
+Durante el diseño también fue importante respetar los lineamientos establecidos en el Manual de Identidad Institucional del Poder Judicial del Estado de Tamaulipas. Se utilizaron los colores oficiales de la institución, la tipografía y el logotipo autorizados, manteniendo así una nueva interfaz moderna pero corporativa y profesional.
+
+\paragraph{Pantalla de Inicio de Sesión} ~\\
+\label{sec:inicio_sesion}El diseño para la pantalla de inicio de sesión del anterior sistema tenía una aspecto tradicional y con pocos elementos visuales, por lo que se buscó un diseño más moderno y atractivo, pero sin perder la formalidad.
+Se decidió centrar el formulario de autenticación en una interfaz sencilla con los campos de usuario y contraseña. 
+
+De esta manera, se evitan elementos innecesarios que podrían distraer al personal; también se agregó el logotipo institucional y los colores definidos por el Manual de Identidad del Poder Judicial.
+El objetivo principal de esta pantalla es reducir la complejidad, y que así el acceso al sistema pueda ser rápido e intuitivo, sin importar si el usuario es nuevo o ya tiene experiencia.
+
+\begin{figure}[htbp]
     \centering
-    \begin{tabular}{c|c} \hline
-         Estudiante &  Nacionalidad \\ \hline
-         Lionel Messi & Argentina  \\
-         Cristiano Ronaldo & Portuguesa  \\
-         Hector Hermoso Herrera & Mexicana \\ 
-         \hline \hline
-    \end{tabular}
-    \caption{Otro ejemplo de tabla}
-    \label{tab:my_label}
-\end{table}
+    \includegraphics[width=1.0\textwidth]{img/sistemaanterior1.png}
+    \caption{Pantalla de inicio de sesión del Sistema de Actualización de Datos del Personal que se utiliza actualmente en el Poder Judicial de Tamaulipas.}
+    \label{fig:orm_img}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup1.png}
+        \caption{Mockup del login.}
+        \label{fig:mockup_login}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma1.png}
+        \caption{Prototipo de login en Figma.}
+        \label{fig:figma_login}
+    \end{subfigure}
+    \caption{Mockup y prototipo de la pantalla de inicio de sesión del sistema.}
+    \label{fig:login_figuras}
+\end{figure}
+
+\paragraph{Dashboard} ~\\
+\label{sec:dashboard}El diseño del dashboard, se hizo para que fuera más llamativo y fácil de usar pero similar al del sistema anterior, más que nada en el funcionamiento. En la parte principal, se agregaron tarjetas con información importante y acceso directo a los módulos principales, a diferencia del diseño anterior que era bastante simple y con bastante texto.
+También se cuidó que mantuviera el mismo espaciado, colores y fuentes para que todo tenga un aspecto uniforme de acuerdo con el Manual de Identidad Institucional.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup2.png}
+        \caption{Mockup del dashboard.}
+        \label{fig:mockup_dashboard}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma2.png}
+        \caption{Prototipo del dashboard en Figma.}
+        \label{fig:figma_dashboard}
+    \end{subfigure}
+    \caption{Mockup y prototipo del dashboard del sistema.}
+    \label{fig:dashboard_figuras}
+\end{figure}
+
+\paragraph{Formulario de Datos Personales} ~\\
+\label{sec:formulario_datos}La parte más importante del nuevo sistema es el formulario de datos personales, ya que obtiene los datos personales de los empleados, que es la función principal de este sistema. El principal problema que se observó en el anterior formulario es que era muy largo y con muchos campos, lo que hacía que fuera difícil de llenar y que los usuarios tuvieran que recorrer toda la pantalla continuamente para rectificar errores. 
+Por eso, en el nuevo diseño se buscó simplificarlo y organizarlo mejor, dividiéndolo en secciones como datos personales, domicilio, contacto, salud y escolaridad; utilizando pestañas para que los usuarios puedan navegar fácilmente entre ellas. Además, se agregaron validaciones en tiempo real para que los usuarios puedan corregir errores de manera inmediata y no al final del proceso. De igual forma, se incorporaron elementos visuales más modernos y botones más visibles para mejorar la experiencia del usuario.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.70\textwidth}
+        \includegraphics[width=\textwidth]{img/sistemaanterior2.png}
+        \caption{}
+        \label{fig:sistema_anterior_formulario}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.70\textwidth}
+        \includegraphics[width=\textwidth]{img/sistemaanterior4.png}
+        \caption{}
+        \label{fig:sistema_anterior_formulario2}
+    \end{subfigure}
+    \caption{Formulario de datos personales del sistema anterior.}
+    \label{fig:sistema_anterior_formulario_figuras}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup3.png}
+        \caption{Mockup del formulario de datos personales.}
+        \label{fig:mockup_formulario_datos}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma3.png}
+        \caption{Prototipo del formulario de datos personales en Figma.}
+        \label{fig:figma_formulario_datos}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos personales del sistema. Sección de datos personales.}
+    \label{fig:formulario_figuras_datos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup4.png}
+        \caption{Mockup del formulario de datos personales.}
+        \label{fig:mockup_formulario_domicilio}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma4.png}
+        \caption{Prototipo del formulario de datos personales en Figma.}
+        \label{fig:figma_formulario_domicilio}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos personales del sistema. Sección de domicilio.}
+    \label{fig:formulario_figuras_domicilio}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup5.png}
+        \caption{Mockup del formulario de datos personales.}
+        \label{fig:mockup_formulario_contacto}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma5.png}
+        \caption{Prototipo del formulario de datos personales en Figma.}
+        \label{fig:figma_formulario_contacto}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos personales del sistema. Sección de contacto.}
+    \label{fig:formulario_figuras_contacto}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup6.png}
+        \caption{Mockup del formulario de datos personales.}
+        \label{fig:mockup_formulario_salud}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma6.png}
+        \caption{Prototipo del formulario de datos personales en Figma.}
+        \label{fig:figma_formulario_salud}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos personales del sistema. Sección de salud.}
+    \label{fig:formulario_figuras_salud}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup7.png}
+        \caption{Mockup del formulario de datos personales.}
+        \label{fig:mockup_formulario_estado_civil}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma7.png}
+        \caption{Prototipo del formulario de datos personales en Figma.}
+        \label{fig:figma_formulario_estado_civil}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos personales del sistema. Sección de estado civil.}
+    \label{fig:formulario_figuras_estado_civil}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup8.png}
+        \caption{Mockup del formulario de datos personales.}
+        \label{fig:mockup_formulario_escolaridad}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma8.png}
+        \caption{Prototipo del formulario de datos personales en Figma.}
+        \label{fig:figma_formulario_escolaridad}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos personales del sistema. Sección de escolaridad.}
+    \label{fig:formulario_figuras_escolaridad}
+\end{figure}
+
+\paragraph{Formulario de Datos de Hijos} ~\\
+\label{sec:formulario_hijos}En el sistema anterior, el módulo del registro de hijos era poco práctico y dificultaba la consulta y actualización de los datos cuando el empleado tenía más de un hijo.
+Entonces además de mejorar el diseño de formulario, se agregó una tabla que muestra de manera inmediata los datos de hijos registrados, junto con opciones para editar o eliminar los datos de manera rápida en caso de ser necesario.
+El formulario utilizado para el registro conserva el mismo estilo visual empleado en el resto del sistema, permitiendo que el usuario identifique rápidamente los campos obligatorios y complete la información siguiendo un flujo sencillo y ordenado.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup10.png}
+        \caption{Mockup del formulario de datos de hijos.}
+        \label{fig:mockup_formulario_hijos}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma10.png}
+        \caption{Prototipo del formulario de datos de hijos en Figma.}
+        \label{fig:figma_formulario_hijos}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos de hijos del sistema.}
+    \label{fig:formulario_figuras_hijos}
+\end{figure}
+
+\paragraph{Comprobante} ~\\
+\label{sec:comprobante}El módulo de generación de comprobantes permanece prácticamente igual al del sistema anterior, ya que su diseño es simple y funcional. Sin embargo, se realizaron mejoras en la presentación de los datos y en la legibilidad del comprobante, asegurando que la información sea clara y fácil de entender para los usuarios. Además, se agregó una vista previa del comprobante en esa misma pestaña, a diferencia del funciomiento anterior que abría una ventana nueva para mostrar el comprobante, lo que hacía que el proceso fuera más lento.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup11.png}
+        \caption{Mockup del comprobante.}
+        \label{fig:mockup_comprobante}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma11.png}
+        \caption{Prototipo del comprobante en Figma.}
+        \label{fig:figma_comprobante}
+    \end{subfigure}
+    \caption{Mockup y prototipo del módulo de comprobantes del sistema.}
+    \label{fig:comprobante_figuras}
+\end{figure}
+
+\subsection{Desarrollo del Sistema}
+\label{sec:desarrollo_sistema}
+
+\subsubsection{Diagramas de Casos de Uso}
+\label{sec:diagramas_casos_uso}
+
+\subsubsection{Diagramas de Bases de Datos}
+\label{sec:diagramas_bases_datos}
+
+\subsubsection{Diagramas de Actividades}
+\label{sec:diagramas_actividades}
+
+\subsubsection{Diagramas de Secuencia}
+\label{sec:diagramas_secuencia}

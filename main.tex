@@ -10,10 +10,14 @@
 \usepackage{tocloft}
 \usepackage{graphicx}
 \usepackage{longtable}
-
+\usepackage{csquotes}
+\setlength{\headheight}{47pt}
 \usepackage[linguistics]{forest}
 \usepackage{amssymb, amsmath, amsbsy} % simbolitos
 
+
+\setcounter{secnumdepth}{4} % Permite numerar hasta el cuarto nivel (paragraph)
+\setcounter{tocdepth}{4}    % Permite que el cuarto nivel aparezca en el índice
 
 \usepackage{xcolor}
 \usepackage{multirow}
@@ -78,17 +82,17 @@
 
 
 % CONSTANTES NECESARIAS PARA EL DOCUMENTO ---> MODIFIQUEN A SU CRITERIO
-\newcommand{\NombreAlumno}{Michael Jackson Perez Black}
+\newcommand{\NombreAlumno}{Valeria Mayrín Bermúdez Raga}
 \soulregister{\NombreAlumno}{1}
 % NUNCA PONGAN EL TITULO EN MAYUSCULAS!!
-\newcommand{\NombreProyecto}{Notificación de actualizaciones de la información en un sistema de información web de pacientes hospitalizados a sus familiares del Sagrado Corazón de Jesus } 
+\newcommand{\NombreProyecto}{Sistema Web de Gestión y Actualización de Datos del Personal del PJETAM} 
 % Noten los \\ para insertar un ENTER del texto en el encabezado. NUNCA PONGAN EL TITULO EN MAYUSCULAS!!
-\newcommand{\NombreProyectoheader}{Notificación de actualizaciones de la información \\en un sistema de información web de pacientes\\ hospitalizados a sus familiares del Sagrado Corazón de Jesus}
+\newcommand{\NombreProyectoheader}{Sistema Web de Gestión y Actualización de Datos del Personal del PJETAM}
 \newcommand{\NombreTSU}{Desarrollo de Software Multiplataforma}
-\newcommand{\UnidadEconomica}{Departamento de Psiquiatría Homeopática, Hospital San Jose Bonaventura}
-\newcommand{\nasesorempresaria}   {Dr. Shawn Murphy}
+\newcommand{\UnidadEconomica}{Supremo Tribunal de Justicia del Estado de Tamaulipas}
+\newcommand{\nasesorempresaria}   {Ing. Luis Roberto Flores de la Fuente}
 \newcommand{\nasesorinstitucional}{Dr. Said Polanco Martagón}
-\newcommand{\Matricula}           {1730505}  %SU MATRICULA
+\newcommand{\Matricula}           {2430215}  %SU MATRICULA
 \newcommand{\ncuatrimestre}{Mayo-Agosto 2026}
 % ESTA ES LA FECHA EN LA QUE EL ASESOR INSTITUCIONA EVALUA EL INFORME
 \newcommand{\fechaAutorizacionInforme}               {31 de Julio de 2026} 
@@ -308,14 +312,9 @@ Calificación final & \multicolumn{2}{c|}{ } \\ \hline
 %\vspace*{1cm}
 \section*{Resumen}
 
-El resumen es una representación condensada del contenido del documento. Su propósito es dar al lector un relato de las características principales del reporte. Su redacción es en tercera persona, en tiempo pasado, con escritura continua y sin tablas o imágenes. La extensión sugerida es no mayor a media página. Debe cumplir con las siguientes características:
 
 \begin{itemize}
-\item Se hace mención del nombre del proyecto como parte de la Estadía, el nombre de la unidad económica y su dirección completa.
-\item Se menciona el objetivo, meta, actividad o responsabilidad principal que se abordó.
-\item Se describe detalladamente la metodología desarrollada; tales como herramientas, materiales, equipos, cursos, softwares y conocimientos adquiridos en la universidad utilizados para alcanzar los objetivos empleados.
-\item Se describen detalladamente los resultados más importantes obtenidos.
-\item Se termina presentando conclusiones del trabajo.
+\item
 \end{itemize}
 
 
@@ -324,7 +323,6 @@ El resumen es una representación condensada del contenido del documento. Su pro
 \addcontentsline{toc}{section}{Abstract}
 %\vspace*{1cm}
 \section*{Abstract}
-Add your abstract here...
 
 \clearpage
 %\renewcommand{\indexname}{Contenido temático}
@@ -342,6 +340,9 @@ Add your abstract here...
 \pagestyle{fancy}
 
 \input{introduccion}
+
+\clearpage
+\input{marcoteorico}
 
 %\chapter{Metodología}
 \clearpage
@@ -410,7 +411,7 @@ Add your abstract here...
 \multicolumn{4}{|l|}{Firma del Evaluador: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  }\\
 \multicolumn{4}{|l|}{Calificación Final: \_\_\_ / 100} \\ \hline
 Valor & Características a cumplir & Puntos & Observaciones \\ \hline
-\SizeFont 6 & \SizeFont Resumen ejecutivo y abstract: Indica qué se realizó, cómo se realizó y qué se obtuvo. (una cuartilla en español e inglés) & & \\ \hline
+\SizeFont 6 & \SizeFont Resumen ejecutivo y abstract: Indica qué se & & \\ \hline
 \SizeFont 6 & \SizeFont Contenido temático: Describe correctamente el contenido del documento & & \\ \hline
 \SizeFont 6 & \SizeFont Introducción: El informe cumple con introducir al lector de una manera atractiva el panorama general del trabajo realizado en la unidad económica.  & & \\ \hline
 \SizeFont 6 & \SizeFont Descripción de la unidad económica: Se redactan los detalles de los antecedentes del departamento, la empresa, giro, misión, visión, infraestructura, ubicación. & & \\\hline
