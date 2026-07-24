@@ -49,6 +49,13 @@ Se decidió centrar el formulario de autenticación en una interfaz sencilla con
 De esta manera, se evitan elementos innecesarios que podrían distraer al personal; también se agregó el logotipo institucional y los colores definidos por el Manual de Identidad del Poder Judicial.
 El objetivo principal de esta pantalla es reducir la complejidad, y que así el acceso al sistema pueda ser rápido e intuitivo, sin importar si el usuario es nuevo o ya tiene experiencia.
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1.0\textwidth]{img/sistemaanterior1.png}
+    \caption{Pantalla de inicio de sesión del Sistema de Actualización de Datos del Personal que se utiliza actualmente en el Poder Judicial de Tamaulipas.}
+    \label{fig:orm_img}
+\end{figure}
+
 \begin{figure}[H]
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
@@ -67,18 +74,190 @@ El objetivo principal de esta pantalla es reducir la complejidad, y que así el 
 \end{figure}
 
 \paragraph{Dashboard} ~\\
-\label{sec:dashboard}
+\label{sec:dashboard}El diseño del dashboard, se hizo para que fuera más llamativo y fácil de usar pero similar al del sistema anterior, más que nada en el funcionamiento. En la parte principal, se agregaron tarjetas con información importante y acceso directo a los módulos principales, a diferencia del diseño anterior que era bastante simple y con bastante texto.
+También se cuidó que mantuviera el mismo espaciado, colores y fuentes para que todo tenga un aspecto uniforme de acuerdo con el Manual de Identidad Institucional.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup2.png}
+        \caption{Mockup del dashboard.}
+        \label{fig:mockup_dashboard}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma2.png}
+        \caption{Prototipo del dashboard en Figma.}
+        \label{fig:figma_dashboard}
+    \end{subfigure}
+    \caption{Mockup y prototipo del dashboard del sistema.}
+    \label{fig:dashboard_figuras}
+\end{figure}
 
 \paragraph{Formulario de Datos Personales} ~\\
-\label{sec:formulario_datos}
+\label{sec:formulario_datos}La parte más importante del nuevo sistema es el formulario de datos personales, ya que obtiene los datos personales de los empleados, que es la función principal de este sistema. El principal problema que se observó en el anterior formulario es que era muy largo y con muchos campos, lo que hacía que fuera difícil de llenar y que los usuarios tuvieran que recorrer toda la pantalla continuamente para rectificar errores. 
+Por eso, en el nuevo diseño se buscó simplificarlo y organizarlo mejor, dividiéndolo en secciones como datos personales, domicilio, contacto, salud y escolaridad; utilizando pestañas para que los usuarios puedan navegar fácilmente entre ellas. Además, se agregaron validaciones en tiempo real para que los usuarios puedan corregir errores de manera inmediata y no al final del proceso. De igual forma, se incorporaron elementos visuales más modernos y botones más visibles para mejorar la experiencia del usuario.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.70\textwidth}
+        \includegraphics[width=\textwidth]{img/sistemaanterior2.png}
+        \caption{}
+        \label{fig:sistema_anterior_formulario}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.70\textwidth}
+        \includegraphics[width=\textwidth]{img/sistemaanterior4.png}
+        \caption{}
+        \label{fig:sistema_anterior_formulario2}
+    \end{subfigure}
+    \caption{Formulario de datos personales del sistema anterior.}
+    \label{fig:sistema_anterior_formulario_figuras}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup3.png}
+        \caption{Mockup del formulario de datos personales.}
+        \label{fig:mockup_formulario_datos}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma3.png}
+        \caption{Prototipo del formulario de datos personales en Figma.}
+        \label{fig:figma_formulario_datos}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos personales del sistema. Sección de datos personales.}
+    \label{fig:formulario_figuras_datos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup4.png}
+        \caption{Mockup del formulario de datos personales.}
+        \label{fig:mockup_formulario_domicilio}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma4.png}
+        \caption{Prototipo del formulario de datos personales en Figma.}
+        \label{fig:figma_formulario_domicilio}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos personales del sistema. Sección de domicilio.}
+    \label{fig:formulario_figuras_domicilio}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup5.png}
+        \caption{Mockup del formulario de datos personales.}
+        \label{fig:mockup_formulario_contacto}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma5.png}
+        \caption{Prototipo del formulario de datos personales en Figma.}
+        \label{fig:figma_formulario_contacto}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos personales del sistema. Sección de contacto.}
+    \label{fig:formulario_figuras_contacto}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup6.png}
+        \caption{Mockup del formulario de datos personales.}
+        \label{fig:mockup_formulario_salud}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma6.png}
+        \caption{Prototipo del formulario de datos personales en Figma.}
+        \label{fig:figma_formulario_salud}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos personales del sistema. Sección de salud.}
+    \label{fig:formulario_figuras_salud}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup7.png}
+        \caption{Mockup del formulario de datos personales.}
+        \label{fig:mockup_formulario_estado_civil}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma7.png}
+        \caption{Prototipo del formulario de datos personales en Figma.}
+        \label{fig:figma_formulario_estado_civil}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos personales del sistema. Sección de estado civil.}
+    \label{fig:formulario_figuras_estado_civil}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup8.png}
+        \caption{Mockup del formulario de datos personales.}
+        \label{fig:mockup_formulario_escolaridad}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma8.png}
+        \caption{Prototipo del formulario de datos personales en Figma.}
+        \label{fig:figma_formulario_escolaridad}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos personales del sistema. Sección de escolaridad.}
+    \label{fig:formulario_figuras_escolaridad}
+\end{figure}
 
 \paragraph{Formulario de Datos de Hijos} ~\\
-\label{sec:formulario_hijos}
+\label{sec:formulario_hijos}En el sistema anterior, el módulo del registro de hijos era poco práctico y dificultaba la consulta y actualización de los datos cuando el empleado tenía más de un hijo.
+Entonces además de mejorar el diseño de formulario, se agregó una tabla que muestra de manera inmediata los datos de hijos registrados, junto con opciones para editar o eliminar los datos de manera rápida en caso de ser necesario.
+El formulario utilizado para el registro conserva el mismo estilo visual empleado en el resto del sistema, permitiendo que el usuario identifique rápidamente los campos obligatorios y complete la información siguiendo un flujo sencillo y ordenado.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup10.png}
+        \caption{Mockup del formulario de datos de hijos.}
+        \label{fig:mockup_formulario_hijos}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma10.png}
+        \caption{Prototipo del formulario de datos de hijos en Figma.}
+        \label{fig:figma_formulario_hijos}
+    \end{subfigure}
+    \caption{Mockup y prototipo del formulario de datos de hijos del sistema.}
+    \label{fig:formulario_figuras_hijos}
+\end{figure}
 
 \paragraph{Comprobante} ~\\
-\label{sec:comprobante}
+\label{sec:comprobante}El módulo de generación de comprobantes permanece prácticamente igual al del sistema anterior, ya que su diseño es simple y funcional. Sin embargo, se realizaron mejoras en la presentación de los datos y en la legibilidad del comprobante, asegurando que la información sea clara y fácil de entender para los usuarios. Además, se agregó una vista previa del comprobante en esa misma pestaña, a diferencia del funciomiento anterior que abría una ventana nueva para mostrar el comprobante, lo que hacía que el proceso fuera más lento.
 
-
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/mockup11.png}
+        \caption{Mockup del comprobante.}
+        \label{fig:mockup_comprobante}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{img/figma11.png}
+        \caption{Prototipo del comprobante en Figma.}
+        \label{fig:figma_comprobante}
+    \end{subfigure}
+    \caption{Mockup y prototipo del módulo de comprobantes del sistema.}
+    \label{fig:comprobante_figuras}
+\end{figure}
 
 \subsection{Desarrollo del Sistema}
 \label{sec:desarrollo_sistema}

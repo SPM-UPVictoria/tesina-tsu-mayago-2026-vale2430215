@@ -41,16 +41,16 @@
 \contentsline {subsection}{\numberline {3.2}Diseño de Interfaz de Usuario}{18}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Mockups y Diseños en Figma}{18}{subsubsection.3.2.1}%
 \contentsline {paragraph}{\numberline {3.2.1.1}Pantalla de Inicio de Sesión}{19}{paragraph.3.2.1.1}%
-\contentsline {paragraph}{\numberline {3.2.1.2}Dashboard}{19}{paragraph.3.2.1.2}%
-\contentsline {paragraph}{\numberline {3.2.1.3}Formulario de Datos Personales}{19}{paragraph.3.2.1.3}%
-\contentsline {paragraph}{\numberline {3.2.1.4}Formulario de Datos de Hijos}{20}{paragraph.3.2.1.4}%
-\contentsline {paragraph}{\numberline {3.2.1.5}Comprobante}{20}{paragraph.3.2.1.5}%
-\contentsline {subsection}{\numberline {3.3}Desarrollo del Sistema}{20}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Diagramas de Casos de Uso}{20}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Diagramas de Bases de Datos}{20}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Diagramas de Actividades}{20}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Diagramas de Secuencia}{20}{subsubsection.3.3.4}%
-\contentsline {section}{\numberline {4}Resultados}{21}{section.4}%
-\contentsline {section}{\numberline {5}Conclusiones}{22}{section.5}%
-\contentsline {section}{Bibliografía}{23}{section.5}%
-\contentsline {section}{Anexos}{25}{section.5}%
+\contentsline {paragraph}{\numberline {3.2.1.2}Dashboard}{20}{paragraph.3.2.1.2}%
+\contentsline {paragraph}{\numberline {3.2.1.3}Formulario de Datos Personales}{20}{paragraph.3.2.1.3}%
+\contentsline {paragraph}{\numberline {3.2.1.4}Formulario de Datos de Hijos}{24}{paragraph.3.2.1.4}%
+\contentsline {paragraph}{\numberline {3.2.1.5}Comprobante}{25}{paragraph.3.2.1.5}%
+\contentsline {subsection}{\numberline {3.3}Desarrollo del Sistema}{26}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Diagramas de Casos de Uso}{26}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Diagramas de Bases de Datos}{26}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Diagramas de Actividades}{26}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Diagramas de Secuencia}{26}{subsubsection.3.3.4}%
+\contentsline {section}{\numberline {4}Resultados}{27}{section.4}%
+\contentsline {section}{\numberline {5}Conclusiones}{28}{section.5}%
+\contentsline {section}{Bibliografía}{29}{section.5}%
+\contentsline {section}{Anexos}{31}{section.5}%
